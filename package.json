@@ -1,0 +1,14 @@
+{
+  "name": "global-ai",
+  "version": "0.3.0",
+  "description": "Глобальный ИИ — многопользовательская веб-игра 2026–2040 (правила v0.3)",
+  "license": "MIT",
+  "repository": "github:Alkores/Global_AI",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node tools/selfcheck.js",
+    "smoke": "node tools/smoke.js",
+    "e2e": "node tools/e2e.js"
+  }
+}

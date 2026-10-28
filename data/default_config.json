@@ -1,0 +1,6796 @@
+{
+ "version": 1,
+ "resources": [
+  {
+   "id": "minerals",
+   "name": "Минерально-сырьевые ресурсы",
+   "group": "I"
+  },
+  {
+   "id": "chem",
+   "name": "Химические и технологические материалы",
+   "group": "I"
+  },
+  {
+   "id": "energy",
+   "name": "Энергетические ресурсы",
+   "group": "I"
+  },
+  {
+   "id": "water",
+   "name": "Вода и ресурс отвода тепла",
+   "group": "I"
+  },
+  {
+   "id": "space",
+   "name": "Пространственные и природно-географические ресурсы",
+   "group": "I"
+  },
+  {
+   "id": "semis",
+   "name": "Мощности производства полупроводников",
+   "group": "I"
+  },
+  {
+   "id": "compute",
+   "name": "Вычислительные компоненты",
+   "group": "I"
+  },
+  {
+   "id": "dc",
+   "name": "ЦОД и вычислительная инфраструктура",
+   "group": "I"
+  },
+  {
+   "id": "network",
+   "name": "Сетевые ресурсы",
+   "group": "I"
+  },
+  {
+   "id": "devices",
+   "name": "Конечные устройства",
+   "group": "I"
+  },
+  {
+   "id": "sw_base",
+   "name": "Базовый программный стек вычислений",
+   "group": "II"
+  },
+  {
+   "id": "sw_dev",
+   "name": "Стек разработки ИИ",
+   "group": "II"
+  },
+  {
+   "id": "sw_ops",
+   "name": "Стек эксплуатации ИИ",
+   "group": "II"
+  },
+  {
+   "id": "math",
+   "name": "Математико-алгоритмические ресурсы",
+   "group": "II"
+  },
+  {
+   "id": "methods",
+   "name": "Методы построения и совершенствования моделей",
+   "group": "II"
+  },
+  {
+   "id": "data_raw",
+   "name": "Исходные данные",
+   "group": "III"
+  },
+  {
+   "id": "data_derived",
+   "name": "Производные данные",
+   "group": "III"
+  },
+  {
+   "id": "data_context",
+   "name": "Контекстные информационные ресурсы",
+   "group": "III"
+  },
+  {
+   "id": "model_res",
+   "name": "Модельные ресурсы",
+   "group": "III"
+  },
+  {
+   "id": "eval",
+   "name": "Ресурсы оценки",
+   "group": "III"
+  },
+  {
+   "id": "docs",
+   "name": "Документационные ресурсы",
+   "group": "III"
+  },
+  {
+   "id": "access",
+   "name": "Права доступа к информационным ресурсам",
+   "group": "III"
+  },
+  {
+   "id": "cyber",
+   "name": "Кибербезопасностные ресурсы",
+   "group": "III"
+  },
+  {
+   "id": "human",
+   "name": "Квалифицированный человеческий ресурс",
+   "group": "IV"
+  },
+  {
+   "id": "expertise",
+   "name": "Предметная экспертиза",
+   "group": "IV"
+  },
+  {
+   "id": "digitized",
+   "name": "Оцифрованность деятельности",
+   "group": "IV"
+  },
+  {
+   "id": "integration",
+   "name": "Интеграционные ресурсы",
+   "group": "IV"
+  },
+  {
+   "id": "org_arch",
+   "name": "Организационная архитектура внедрения",
+   "group": "IV"
+  },
+  {
+   "id": "org_change",
+   "name": "Организационная способность к изменению",
+   "group": "IV"
+  },
+  {
+   "id": "finance",
+   "name": "Финансовые ресурсы",
+   "group": "IV"
+  },
+  {
+   "id": "providers",
+   "name": "Поставщики и рынок технологических услуг",
+   "group": "IV"
+  },
+  {
+   "id": "econ_viab",
+   "name": "Экономическая целесообразность",
+   "group": "IV"
+  },
+  {
+   "id": "law",
+   "name": "Правовая среда",
+   "group": "V"
+  },
+  {
+   "id": "regulatory",
+   "name": "Регуляторная и стандартная среда",
+   "group": "V"
+  },
+  {
+   "id": "institutions",
+   "name": "Институциональная инфраструктура",
+   "group": "V"
+  },
+  {
+   "id": "trade_env",
+   "name": "Конкурентная и торговая среда",
+   "group": "V"
+  },
+  {
+   "id": "trust",
+   "name": "Социальное доверие",
+   "group": "V"
+  },
+  {
+   "id": "workforce",
+   "name": "Готовность работников к использованию ИИ",
+   "group": "V"
+  },
+  {
+   "id": "local_fit",
+   "name": "Локальная социально-культурная применимость",
+   "group": "V"
+  },
+  {
+   "id": "ai_gov",
+   "name": "Система управления ИИ",
+   "group": "V"
+  },
+  {
+   "id": "monitoring",
+   "name": "Поствнедренческий мониторинг",
+   "group": "VI"
+  },
+  {
+   "id": "renewal",
+   "name": "Ресурс обновления и восстановления",
+   "group": "VI"
+  },
+  {
+   "id": "recycling",
+   "name": "Ресурс утилизации и воспроизводства физической базы",
+   "group": "VI"
+  }
+ ],
+ "spheres": [
+  {
+   "id": "production",
+   "name": "Производство"
+  },
+  {
+   "id": "management",
+   "name": "Управление"
+  },
+  {
+   "id": "cognition",
+   "name": "Познание"
+  },
+  {
+   "id": "learning",
+   "name": "Обучение"
+  },
+  {
+   "id": "war",
+   "name": "Война"
+  },
+  {
+   "id": "economy",
+   "name": "Экономика"
+  },
+  {
+   "id": "gov",
+   "name": "Государственное управление"
+  },
+  {
+   "id": "adoption",
+   "name": "Принятие ИИ"
+  }
+ ],
+ "countries": [
+  {
+   "id": "russia",
+   "name": "Россия",
+   "isoNumeric": 643,
+   "start": {
+    "resources": {
+     "minerals": {
+      "B": 9,
+      "C": 0.05
+     },
+     "chem": {
+      "B": 5,
+      "C": 0.2
+     },
+     "energy": {
+      "B": 9,
+      "C": 0.1
+     },
+     "water": {
+      "B": 9,
+      "C": 0
+     },
+     "space": {
+      "B": 9,
+      "C": 0
+     },
+     "semis": {
+      "B": 3,
+      "C": 0.25
+     },
+     "compute": {
+      "B": 3,
+      "C": 0.2
+     },
+     "dc": {
+      "B": 6,
+      "C": 0.4
+     },
+     "network": {
+      "B": 8,
+      "C": 0.2
+     },
+     "devices": {
+      "B": 7,
+      "C": 0.15
+     },
+     "sw_base": {
+      "B": 7,
+      "C": 0.25
+     },
+     "sw_dev": {
+      "B": 8,
+      "C": 0.3
+     },
+     "sw_ops": {
+      "B": 7,
+      "C": 0.35
+     },
+     "math": {
+      "B": 9,
+      "C": 0.15
+     },
+     "methods": {
+      "B": 8,
+      "C": 0.3
+     },
+     "data_raw": {
+      "B": 8,
+      "C": 0.25
+     },
+     "data_derived": {
+      "B": 6,
+      "C": 0.3
+     },
+     "data_context": {
+      "B": 7,
+      "C": 0.25
+     },
+     "model_res": {
+      "B": 7,
+      "C": 0.4
+     },
+     "eval": {
+      "B": 6,
+      "C": 0.3
+     },
+     "docs": {
+      "B": 6,
+      "C": 0.2
+     },
+     "access": {
+      "B": 5,
+      "C": 0.1
+     },
+     "cyber": {
+      "B": 9,
+      "C": 0.1
+     },
+     "human": {
+      "B": 8,
+      "C": 0.15
+     },
+     "expertise": {
+      "B": 9,
+      "C": 0.05
+     },
+     "digitized": {
+      "B": 8,
+      "C": 0.25
+     },
+     "integration": {
+      "B": 6,
+      "C": 0.3
+     },
+     "org_arch": {
+      "B": 6,
+      "C": 0.25
+     },
+     "org_change": {
+      "B": 6,
+      "C": 0.2
+     },
+     "finance": {
+      "B": 7,
+      "C": 0.1
+     },
+     "providers": {
+      "B": 7,
+      "C": 0.25
+     },
+     "econ_viab": {
+      "B": 8,
+      "C": 0.2
+     },
+     "law": {
+      "B": 6,
+      "C": 0.2
+     },
+     "regulatory": {
+      "B": 6,
+      "C": 0.3
+     },
+     "institutions": {
+      "B": 5,
+      "C": 0.1
+     },
+     "trade_env": {
+      "B": 3,
+      "C": -0.1
+     },
+     "trust": {
+      "B": 6,
+      "C": 0.15
+     },
+     "workforce": {
+      "B": 7,
+      "C": 0.3
+     },
+     "local_fit": {
+      "B": 9,
+      "C": 0.1
+     },
+     "ai_gov": {
+      "B": 6,
+      "C": 0.3
+     },
+     "monitoring": {
+      "B": 6,
+      "C": 0.3
+     },
+     "renewal": {
+      "B": 6,
+      "C": 0.15
+     },
+     "recycling": {
+      "B": 5,
+      "C": 0.15
+     }
+    },
+    "spheres": {
+     "production": {
+      "L": 5.5,
+      "M": 0.35
+     },
+     "management": {
+      "L": 5.5,
+      "M": 0.35
+     },
+     "cognition": {
+      "L": 6.5,
+      "M": 0.35
+     },
+     "learning": {
+      "L": 5.5,
+      "M": 0.4
+     },
+     "war": {
+      "L": 6,
+      "M": 0.25
+     },
+     "economy": {
+      "L": 6.5,
+      "M": 0.45
+     },
+     "gov": {
+      "L": 6.5,
+      "M": 0.4
+     },
+     "adoption": {
+      "L": 6,
+      "M": 0.35
+     }
+    }
+   },
+   "relations": {
+    "usa": -1.5,
+    "china": 2.9,
+    "india": 2.8,
+    "uk": -1.8,
+    "france": -1.4,
+    "germany": -1.7,
+    "japan": -1.3,
+    "skorea": -1.2,
+    "turkey": 1.3,
+    "saudi": 1.2,
+    "iran": 2.7,
+    "israel": -0.2,
+    "brazil": 1.7,
+    "uae": 1.8,
+    "indonesia": 1.8
+   }
+  },
+  {
+   "id": "usa",
+   "name": "США",
+   "isoNumeric": 840,
+   "start": {
+    "resources": {
+     "minerals": {
+      "B": 7.5,
+      "C": 0.1
+     },
+     "chem": {
+      "B": 8.5,
+      "C": 0.2
+     },
+     "energy": {
+      "B": 9,
+      "C": 0.15
+     },
+     "water": {
+      "B": 7.5,
+      "C": 0.1
+     },
+     "space": {
+      "B": 9,
+      "C": 0.05
+     },
+     "semis": {
+      "B": 7,
+      "C": 0.45
+     },
+     "compute": {
+      "B": 9.5,
+      "C": 0.2
+     },
+     "dc": {
+      "B": 9.5,
+      "C": 0.3
+     },
+     "network": {
+      "B": 9,
+      "C": 0.15
+     },
+     "devices": {
+      "B": 9,
+      "C": 0.1
+     },
+     "sw_base": {
+      "B": 9,
+      "C": 0.1
+     },
+     "sw_dev": {
+      "B": 9,
+      "C": 0.1
+     },
+     "sw_ops": {
+      "B": 8,
+      "C": 0.15
+     },
+     "math": {
+      "B": 9,
+      "C": 0.1
+     },
+     "methods": {
+      "B": 9,
+      "C": 0.1
+     },
+     "data_raw": {
+      "B": 9.5,
+      "C": 0.15
+     },
+     "data_derived": {
+      "B": 9,
+      "C": 0.2
+     },
+     "data_context": {
+      "B": 9.5,
+      "C": 0.15
+     },
+     "model_res": {
+      "B": 9,
+      "C": 0.15
+     },
+     "eval": {
+      "B": 9,
+      "C": 0.25
+     },
+     "docs": {
+      "B": 9,
+      "C": 0.15
+     },
+     "access": {
+      "B": 8,
+      "C": 0.1
+     },
+     "cyber": {
+      "B": 8.5,
+      "C": 0.1
+     },
+     "human": {
+      "B": 8,
+      "C": 0.1
+     },
+     "expertise": {
+      "B": 9.5,
+      "C": 0.05
+     },
+     "digitized": {
+      "B": 9,
+      "C": 0.15
+     },
+     "integration": {
+      "B": 9,
+      "C": 0.2
+     },
+     "org_arch": {
+      "B": 8.5,
+      "C": 0.2
+     },
+     "org_change": {
+      "B": 8.5,
+      "C": 0.15
+     },
+     "finance": {
+      "B": 9,
+      "C": 0.05
+     },
+     "providers": {
+      "B": 10,
+      "C": 0.05
+     },
+     "econ_viab": {
+      "B": 9.5,
+      "C": 0.1
+     },
+     "law": {
+      "B": 8,
+      "C": 0.1
+     },
+     "regulatory": {
+      "B": 7.5,
+      "C": 0.2
+     },
+     "institutions": {
+      "B": 8.5,
+      "C": 0.1
+     },
+     "trade_env": {
+      "B": 7,
+      "C": -0.1
+     },
+     "trust": {
+      "B": 5.5,
+      "C": 0.05
+     },
+     "workforce": {
+      "B": 8,
+      "C": 0.25
+     },
+     "local_fit": {
+      "B": 9.5,
+      "C": 0.05
+     },
+     "ai_gov": {
+      "B": 7.5,
+      "C": 0.2
+     },
+     "monitoring": {
+      "B": 8,
+      "C": 0.2
+     },
+     "renewal": {
+      "B": 9,
+      "C": 0.1
+     },
+     "recycling": {
+      "B": 7,
+      "C": 0.15
+     }
+    },
+    "spheres": {
+     "production": {
+      "L": 7,
+      "M": 0.4
+     },
+     "management": {
+      "L": 8,
+      "M": 0.35
+     },
+     "cognition": {
+      "L": 9.5,
+      "M": 0.15
+     },
+     "learning": {
+      "L": 7.5,
+      "M": 0.3
+     },
+     "war": {
+      "L": 9,
+      "M": 0.2
+     },
+     "economy": {
+      "L": 8.5,
+      "M": 0.35
+     },
+     "gov": {
+      "L": 7,
+      "M": 0.3
+     },
+     "adoption": {
+      "L": 7,
+      "M": 0.3
+     }
+    }
+   },
+   "relations": {
+    "russia": -1.5,
+    "china": -1.1,
+    "india": 1,
+    "uk": 0.9,
+    "france": 3.2,
+    "germany": 3.2,
+    "japan": 4,
+    "skorea": 3.8,
+    "turkey": 2.4,
+    "saudi": 3,
+    "iran": -2.5,
+    "israel": 4,
+    "brazil": 0.8,
+    "uae": 3,
+    "indonesia": 2.6
+   }
+  },
+  {
+   "id": "china",
+   "name": "Китай",
+   "isoNumeric": 156,
+   "start": {
+    "resources": {
+     "minerals": {
+      "B": 9.5,
+      "C": 0.05
+     },
+     "chem": {
+      "B": 9.5,
+      "C": 0.1
+     },
+     "energy": {
+      "B": 9,
+      "C": 0.2
+     },
+     "water": {
+      "B": 6.5,
+      "C": 0.15
+     },
+     "space": {
+      "B": 9,
+      "C": 0.05
+     },
+     "semis": {
+      "B": 8.5,
+      "C": 0.45
+     },
+     "compute": {
+      "B": 7.5,
+      "C": 0.45
+     },
+     "dc": {
+      "B": 8.5,
+      "C": 0.35
+     },
+     "network": {
+      "B": 10,
+      "C": 0.15
+     },
+     "devices": {
+      "B": 10,
+      "C": 0.05
+     },
+     "sw_base": {
+      "B": 8,
+      "C": 0.25
+     },
+     "sw_dev": {
+      "B": 8.5,
+      "C": 0.25
+     },
+     "sw_ops": {
+      "B": 9,
+      "C": 0.2
+     },
+     "math": {
+      "B": 10,
+      "C": 0.1
+     },
+     "methods": {
+      "B": 9.5,
+      "C": 0.15
+     },
+     "data_raw": {
+      "B": 10,
+      "C": 0.05
+     },
+     "data_derived": {
+      "B": 9.5,
+      "C": 0.15
+     },
+     "data_context": {
+      "B": 9.5,
+      "C": 0.1
+     },
+     "model_res": {
+      "B": 9.5,
+      "C": 0.15
+     },
+     "eval": {
+      "B": 8.5,
+      "C": 0.25
+     },
+     "docs": {
+      "B": 7.5,
+      "C": 0.2
+     },
+     "access": {
+      "B": 7,
+      "C": 0.1
+     },
+     "cyber": {
+      "B": 9,
+      "C": 0.15
+     },
+     "human": {
+      "B": 9.5,
+      "C": 0.15
+     },
+     "expertise": {
+      "B": 10,
+      "C": 0.05
+     },
+     "digitized": {
+      "B": 9.5,
+      "C": 0.15
+     },
+     "integration": {
+      "B": 9.7,
+      "C": 0.15
+     },
+     "org_arch": {
+      "B": 9.5,
+      "C": 0.1
+     },
+     "org_change": {
+      "B": 9,
+      "C": 0.15
+     },
+     "finance": {
+      "B": 9,
+      "C": 0.1
+     },
+     "providers": {
+      "B": 9.5,
+      "C": 0.1
+     },
+     "econ_viab": {
+      "B": 10,
+      "C": 0.05
+     },
+     "law": {
+      "B": 7.5,
+      "C": 0.2
+     },
+     "regulatory": {
+      "B": 9.5,
+      "C": 0.1
+     },
+     "institutions": {
+      "B": 9.5,
+      "C": 0.1
+     },
+     "trade_env": {
+      "B": 6,
+      "C": -0.1
+     },
+     "trust": {
+      "B": 8.5,
+      "C": 0.05
+     },
+     "workforce": {
+      "B": 9,
+      "C": 0.25
+     },
+     "local_fit": {
+      "B": 10,
+      "C": 0.05
+     },
+     "ai_gov": {
+      "B": 9.5,
+      "C": 0.1
+     },
+     "monitoring": {
+      "B": 9.5,
+      "C": 0.15
+     },
+     "renewal": {
+      "B": 9.5,
+      "C": 0.1
+     },
+     "recycling": {
+      "B": 9,
+      "C": 0.15
+     }
+    },
+    "spheres": {
+     "production": {
+      "L": 9.5,
+      "M": 0.25
+     },
+     "management": {
+      "L": 8.5,
+      "M": 0.3
+     },
+     "cognition": {
+      "L": 9.5,
+      "M": 0.15
+     },
+     "learning": {
+      "L": 8.5,
+      "M": 0.3
+     },
+     "war": {
+      "L": 8.5,
+      "M": 0.25
+     },
+     "economy": {
+      "L": 9,
+      "M": 0.35
+     },
+     "gov": {
+      "L": 8.5,
+      "M": 0.35
+     },
+     "adoption": {
+      "L": 8.5,
+      "M": 0.3
+     }
+    }
+   },
+   "relations": {
+    "russia": 3,
+    "usa": -1.1,
+    "india": -0.4,
+    "uk": 0.5,
+    "france": 1.8,
+    "germany": 1.4,
+    "japan": -0.8,
+    "skorea": 0.8,
+    "turkey": 2.1,
+    "saudi": 2.8,
+    "iran": 3,
+    "israel": 0.3,
+    "brazil": 3,
+    "uae": 3,
+    "indonesia": 2.8
+   }
+  },
+  {
+   "id": "india",
+   "name": "Индия",
+   "isoNumeric": 356,
+   "start": {
+    "resources": {
+     "minerals": {
+      "B": 7,
+      "C": 0.1
+     },
+     "chem": {
+      "B": 6.5,
+      "C": 0.15
+     },
+     "energy": {
+      "B": 7,
+      "C": 0.15
+     },
+     "water": {
+      "B": 5.5,
+      "C": 0.05
+     },
+     "space": {
+      "B": 8.5,
+      "C": 0.05
+     },
+     "semis": {
+      "B": 3.5,
+      "C": 0.45
+     },
+     "compute": {
+      "B": 5,
+      "C": 0.35
+     },
+     "dc": {
+      "B": 7,
+      "C": 0.4
+     },
+     "network": {
+      "B": 7,
+      "C": 0.25
+     },
+     "devices": {
+      "B": 7,
+      "C": 0.15
+     },
+     "sw_base": {
+      "B": 7,
+      "C": 0.25
+     },
+     "sw_dev": {
+      "B": 7.5,
+      "C": 0.3
+     },
+     "sw_ops": {
+      "B": 6.5,
+      "C": 0.25
+     },
+     "math": {
+      "B": 8.5,
+      "C": 0.1
+     },
+     "methods": {
+      "B": 7.5,
+      "C": 0.25
+     },
+     "data_raw": {
+      "B": 9,
+      "C": 0.1
+     },
+     "data_derived": {
+      "B": 7.5,
+      "C": 0.25
+     },
+     "data_context": {
+      "B": 7.5,
+      "C": 0.2
+     },
+     "model_res": {
+      "B": 7.5,
+      "C": 0.3
+     },
+     "eval": {
+      "B": 7,
+      "C": 0.25
+     },
+     "docs": {
+      "B": 6.5,
+      "C": 0.2
+     },
+     "access": {
+      "B": 7,
+      "C": 0.15
+     },
+     "cyber": {
+      "B": 7.5,
+      "C": 0.2
+     },
+     "human": {
+      "B": 9,
+      "C": 0.25
+     },
+     "expertise": {
+      "B": 8.5,
+      "C": 0.1
+     },
+     "digitized": {
+      "B": 7,
+      "C": 0.3
+     },
+     "integration": {
+      "B": 6.5,
+      "C": 0.3
+     },
+     "org_arch": {
+      "B": 6.5,
+      "C": 0.25
+     },
+     "org_change": {
+      "B": 7.5,
+      "C": 0.25
+     },
+     "finance": {
+      "B": 7.5,
+      "C": 0.2
+     },
+     "providers": {
+      "B": 8,
+      "C": 0.25
+     },
+     "econ_viab": {
+      "B": 9,
+      "C": 0.1
+     },
+     "law": {
+      "B": 6.5,
+      "C": 0.2
+     },
+     "regulatory": {
+      "B": 6.5,
+      "C": 0.25
+     },
+     "institutions": {
+      "B": 6.5,
+      "C": 0.25
+     },
+     "trade_env": {
+      "B": 7.5,
+      "C": 0.15
+     },
+     "trust": {
+      "B": 7,
+      "C": 0.1
+     },
+     "workforce": {
+      "B": 8.5,
+      "C": 0.3
+     },
+     "local_fit": {
+      "B": 10,
+      "C": 0
+     },
+     "ai_gov": {
+      "B": 7,
+      "C": 0.25
+     },
+     "monitoring": {
+      "B": 6,
+      "C": 0.25
+     },
+     "renewal": {
+      "B": 6.5,
+      "C": 0.25
+     },
+     "recycling": {
+      "B": 5.5,
+      "C": 0.2
+     }
+    },
+    "spheres": {
+     "production": {
+      "L": 7,
+      "M": 0.35
+     },
+     "management": {
+      "L": 6.5,
+      "M": 0.3
+     },
+     "cognition": {
+      "L": 8.5,
+      "M": 0.2
+     },
+     "learning": {
+      "L": 8,
+      "M": 0.35
+     },
+     "war": {
+      "L": 6.5,
+      "M": 0.25
+     },
+     "economy": {
+      "L": 8,
+      "M": 0.35
+     },
+     "gov": {
+      "L": 6.5,
+      "M": 0.4
+     },
+     "adoption": {
+      "L": 8.5,
+      "M": 0.25
+     }
+    }
+   },
+   "relations": {
+    "russia": 3.1,
+    "usa": 2.2,
+    "china": -0.8,
+    "uk": 2.2,
+    "france": 3,
+    "germany": 2.4,
+    "japan": 2.8,
+    "skorea": 2.1,
+    "turkey": -0.4,
+    "saudi": 2.7,
+    "iran": 1.8,
+    "israel": 3.1,
+    "brazil": 2.4,
+    "uae": 3.2,
+    "indonesia": 2.2
+   }
+  },
+  {
+   "id": "uk",
+   "name": "Великобритания",
+   "isoNumeric": 826,
+   "start": {
+    "resources": {
+     "minerals": {
+      "B": 3.5,
+      "C": 0.05
+     },
+     "chem": {
+      "B": 6.5,
+      "C": 0.1
+     },
+     "energy": {
+      "B": 6,
+      "C": 0.1
+     },
+     "water": {
+      "B": 7.5,
+      "C": 0.05
+     },
+     "space": {
+      "B": 5.5,
+      "C": 0.05
+     },
+     "semis": {
+      "B": 3,
+      "C": 0.2
+     },
+     "compute": {
+      "B": 7.5,
+      "C": 0.15
+     },
+     "dc": {
+      "B": 8.5,
+      "C": 0.25
+     },
+     "network": {
+      "B": 8.5,
+      "C": 0.15
+     },
+     "devices": {
+      "B": 7,
+      "C": 0.1
+     },
+     "sw_base": {
+      "B": 8.5,
+      "C": 0.15
+     },
+     "sw_dev": {
+      "B": 9,
+      "C": 0.2
+     },
+     "sw_ops": {
+      "B": 8.5,
+      "C": 0.2
+     },
+     "math": {
+      "B": 9,
+      "C": 0.1
+     },
+     "methods": {
+      "B": 9,
+      "C": 0.15
+     },
+     "data_raw": {
+      "B": 8.5,
+      "C": 0.1
+     },
+     "data_derived": {
+      "B": 8.5,
+      "C": 0.15
+     },
+     "data_context": {
+      "B": 9,
+      "C": 0.1
+     },
+     "model_res": {
+      "B": 9,
+      "C": 0.2
+     },
+     "eval": {
+      "B": 8.5,
+      "C": 0.15
+     },
+     "docs": {
+      "B": 9,
+      "C": 0.1
+     },
+     "access": {
+      "B": 8.5,
+      "C": 0.1
+     },
+     "cyber": {
+      "B": 9,
+      "C": 0.15
+     },
+     "human": {
+      "B": 9,
+      "C": 0.15
+     },
+     "expertise": {
+      "B": 9,
+      "C": 0.1
+     },
+     "digitized": {
+      "B": 9,
+      "C": 0.15
+     },
+     "integration": {
+      "B": 8.5,
+      "C": 0.15
+     },
+     "org_arch": {
+      "B": 8.5,
+      "C": 0.15
+     },
+     "org_change": {
+      "B": 8.5,
+      "C": 0.15
+     },
+     "finance": {
+      "B": 9,
+      "C": 0.1
+     },
+     "providers": {
+      "B": 9.5,
+      "C": 0.1
+     },
+     "econ_viab": {
+      "B": 9,
+      "C": 0.05
+     },
+     "law": {
+      "B": 9,
+      "C": 0.1
+     },
+     "regulatory": {
+      "B": 8.5,
+      "C": 0.15
+     },
+     "institutions": {
+      "B": 9,
+      "C": 0.1
+     },
+     "trade_env": {
+      "B": 9,
+      "C": 0.05
+     },
+     "trust": {
+      "B": 6.5,
+      "C": 0.05
+     },
+     "workforce": {
+      "B": 8.5,
+      "C": 0.2
+     },
+     "local_fit": {
+      "B": 9,
+      "C": 0.05
+     },
+     "ai_gov": {
+      "B": 8.5,
+      "C": 0.15
+     },
+     "monitoring": {
+      "B": 8.5,
+      "C": 0.15
+     },
+     "renewal": {
+      "B": 8.5,
+      "C": 0.15
+     },
+     "recycling": {
+      "B": 7.5,
+      "C": 0.1
+     }
+    },
+    "spheres": {
+     "production": {
+      "L": 7.5,
+      "M": 0.2
+     },
+     "management": {
+      "L": 8,
+      "M": 0.2
+     },
+     "cognition": {
+      "L": 8.5,
+      "M": 0.15
+     },
+     "learning": {
+      "L": 7.5,
+      "M": 0.2
+     },
+     "war": {
+      "L": 7.5,
+      "M": 0.15
+     },
+     "economy": {
+      "L": 8,
+      "M": 0.2
+     },
+     "gov": {
+      "L": 8,
+      "M": 0.2
+     },
+     "adoption": {
+      "L": 7,
+      "M": 0.2
+     }
+    }
+   },
+   "relations": {
+    "russia": -1.9,
+    "usa": 4,
+    "china": 0.2,
+    "india": 2,
+    "france": 3.4,
+    "germany": 3.1,
+    "japan": 2.8,
+    "skorea": 2.6,
+    "turkey": 2.2,
+    "saudi": 2.4,
+    "iran": -1.3,
+    "israel": 1.6,
+    "brazil": 1.5,
+    "uae": 2.8,
+    "indonesia": 1.7
+   }
+  },
+  {
+   "id": "france",
+   "name": "Франция",
+   "isoNumeric": 250,
+   "start": {
+    "resources": {
+     "minerals": {
+      "B": 4.5,
+      "C": 0.05
+     },
+     "chem": {
+      "B": 7.5,
+      "C": 0.1
+     },
+     "energy": {
+      "B": 7.5,
+      "C": 0.1
+     },
+     "water": {
+      "B": 7.5,
+      "C": 0.05
+     },
+     "space": {
+      "B": 6,
+      "C": 0.05
+     },
+     "semis": {
+      "B": 4.5,
+      "C": 0.2
+     },
+     "compute": {
+      "B": 7,
+      "C": 0.15
+     },
+     "dc": {
+      "B": 8,
+      "C": 0.2
+     },
+     "network": {
+      "B": 8,
+      "C": 0.15
+     },
+     "devices": {
+      "B": 7,
+      "C": 0.1
+     },
+     "sw_base": {
+      "B": 8,
+      "C": 0.15
+     },
+     "sw_dev": {
+      "B": 8.5,
+      "C": 0.2
+     },
+     "sw_ops": {
+      "B": 8,
+      "C": 0.2
+     },
+     "math": {
+      "B": 9,
+      "C": 0.1
+     },
+     "methods": {
+      "B": 8.5,
+      "C": 0.15
+     },
+     "data_raw": {
+      "B": 8.5,
+      "C": 0.1
+     },
+     "data_derived": {
+      "B": 8.5,
+      "C": 0.15
+     },
+     "data_context": {
+      "B": 8.5,
+      "C": 0.1
+     },
+     "model_res": {
+      "B": 8.5,
+      "C": 0.2
+     },
+     "eval": {
+      "B": 8.5,
+      "C": 0.15
+     },
+     "docs": {
+      "B": 8.5,
+      "C": 0.1
+     },
+     "access": {
+      "B": 8,
+      "C": 0.1
+     },
+     "cyber": {
+      "B": 8.5,
+      "C": 0.15
+     },
+     "human": {
+      "B": 8.5,
+      "C": 0.15
+     },
+     "expertise": {
+      "B": 9,
+      "C": 0.1
+     },
+     "digitized": {
+      "B": 8.5,
+      "C": 0.15
+     },
+     "integration": {
+      "B": 8,
+      "C": 0.15
+     },
+     "org_arch": {
+      "B": 8,
+      "C": 0.15
+     },
+     "org_change": {
+      "B": 7.5,
+      "C": 0.15
+     },
+     "finance": {
+      "B": 8.5,
+      "C": 0.1
+     },
+     "providers": {
+      "B": 8.5,
+      "C": 0.1
+     },
+     "econ_viab": {
+      "B": 8,
+      "C": 0.05
+     },
+     "law": {
+      "B": 9,
+      "C": 0.1
+     },
+     "regulatory": {
+      "B": 9,
+      "C": 0.1
+     },
+     "institutions": {
+      "B": 9,
+      "C": 0.1
+     },
+     "trade_env": {
+      "B": 8.5,
+      "C": 0.05
+     },
+     "trust": {
+      "B": 6.5,
+      "C": 0.05
+     },
+     "workforce": {
+      "B": 8,
+      "C": 0.2
+     },
+     "local_fit": {
+      "B": 9,
+      "C": 0.05
+     },
+     "ai_gov": {
+      "B": 9,
+      "C": 0.1
+     },
+     "monitoring": {
+      "B": 8.5,
+      "C": 0.15
+     },
+     "renewal": {
+      "B": 8.5,
+      "C": 0.15
+     },
+     "recycling": {
+      "B": 8.5,
+      "C": 0.1
+     }
+    },
+    "spheres": {
+     "production": {
+      "L": 7.5,
+      "M": 0.2
+     },
+     "management": {
+      "L": 8,
+      "M": 0.2
+     },
+     "cognition": {
+      "L": 8.5,
+      "M": 0.15
+     },
+     "learning": {
+      "L": 7.5,
+      "M": 0.2
+     },
+     "war": {
+      "L": 7.5,
+      "M": 0.15
+     },
+     "economy": {
+      "L": 8,
+      "M": 0.2
+     },
+     "gov": {
+      "L": 8.5,
+      "M": 0.2
+     },
+     "adoption": {
+      "L": 7,
+      "M": 0.2
+     }
+    }
+   },
+   "relations": {
+    "russia": -1.5,
+    "usa": 3,
+    "china": 1.5,
+    "india": 3.2,
+    "uk": 3.3,
+    "germany": 4.1,
+    "japan": 2.7,
+    "skorea": 2.5,
+    "turkey": 1,
+    "saudi": 2.3,
+    "iran": -1,
+    "israel": 1.2,
+    "brazil": 1.8,
+    "uae": 3,
+    "indonesia": 1.8
+   }
+  },
+  {
+   "id": "germany",
+   "name": "Германия",
+   "isoNumeric": 276,
+   "start": {
+    "resources": {
+     "minerals": {
+      "B": 4.5,
+      "C": 0.05
+     },
+     "chem": {
+      "B": 8.5,
+      "C": 0.1
+     },
+     "energy": {
+      "B": 6.5,
+      "C": 0.1
+     },
+     "water": {
+      "B": 7.5,
+      "C": 0.05
+     },
+     "space": {
+      "B": 6,
+      "C": 0.05
+     },
+     "semis": {
+      "B": 6,
+      "C": 0.2
+     },
+     "compute": {
+      "B": 7.5,
+      "C": 0.15
+     },
+     "dc": {
+      "B": 8,
+      "C": 0.2
+     },
+     "network": {
+      "B": 8.5,
+      "C": 0.15
+     },
+     "devices": {
+      "B": 8,
+      "C": 0.1
+     },
+     "sw_base": {
+      "B": 8.5,
+      "C": 0.15
+     },
+     "sw_dev": {
+      "B": 8.5,
+      "C": 0.2
+     },
+     "sw_ops": {
+      "B": 8.5,
+      "C": 0.2
+     },
+     "math": {
+      "B": 8.5,
+      "C": 0.1
+     },
+     "methods": {
+      "B": 8,
+      "C": 0.15
+     },
+     "data_raw": {
+      "B": 8.5,
+      "C": 0.1
+     },
+     "data_derived": {
+      "B": 8.5,
+      "C": 0.15
+     },
+     "data_context": {
+      "B": 8.5,
+      "C": 0.1
+     },
+     "model_res": {
+      "B": 8.5,
+      "C": 0.15
+     },
+     "eval": {
+      "B": 8.5,
+      "C": 0.15
+     },
+     "docs": {
+      "B": 9,
+      "C": 0.1
+     },
+     "access": {
+      "B": 8.5,
+      "C": 0.1
+     },
+     "cyber": {
+      "B": 8.5,
+      "C": 0.15
+     },
+     "human": {
+      "B": 9,
+      "C": 0.15
+     },
+     "expertise": {
+      "B": 9.5,
+      "C": 0.1
+     },
+     "digitized": {
+      "B": 9,
+      "C": 0.15
+     },
+     "integration": {
+      "B": 8.5,
+      "C": 0.15
+     },
+     "org_arch": {
+      "B": 8.5,
+      "C": 0.15
+     },
+     "org_change": {
+      "B": 8,
+      "C": 0.15
+     },
+     "finance": {
+      "B": 9,
+      "C": 0.1
+     },
+     "providers": {
+      "B": 9,
+      "C": 0.1
+     },
+     "econ_viab": {
+      "B": 8.5,
+      "C": 0.05
+     },
+     "law": {
+      "B": 9.5,
+      "C": 0.05
+     },
+     "regulatory": {
+      "B": 9,
+      "C": 0.1
+     },
+     "institutions": {
+      "B": 9.5,
+      "C": 0.05
+     },
+     "trade_env": {
+      "B": 9,
+      "C": 0.05
+     },
+     "trust": {
+      "B": 7,
+      "C": 0.05
+     },
+     "workforce": {
+      "B": 8,
+      "C": 0.2
+     },
+     "local_fit": {
+      "B": 9,
+      "C": 0.05
+     },
+     "ai_gov": {
+      "B": 9,
+      "C": 0.1
+     },
+     "monitoring": {
+      "B": 9,
+      "C": 0.1
+     },
+     "renewal": {
+      "B": 9,
+      "C": 0.1
+     },
+     "recycling": {
+      "B": 9,
+      "C": 0.1
+     }
+    },
+    "spheres": {
+     "production": {
+      "L": 8.5,
+      "M": 0.2
+     },
+     "management": {
+      "L": 7.5,
+      "M": 0.2
+     },
+     "cognition": {
+      "L": 8,
+      "M": 0.15
+     },
+     "learning": {
+      "L": 7.5,
+      "M": 0.2
+     },
+     "war": {
+      "L": 6.5,
+      "M": 0.15
+     },
+     "economy": {
+      "L": 8.5,
+      "M": 0.2
+     },
+     "gov": {
+      "L": 8,
+      "M": 0.2
+     },
+     "adoption": {
+      "L": 6.5,
+      "M": 0.25
+     }
+    }
+   },
+   "relations": {
+    "russia": -1.8,
+    "usa": 3,
+    "china": 1.2,
+    "india": 2.3,
+    "uk": 3,
+    "france": 4.1,
+    "japan": 2.8,
+    "skorea": 2.6,
+    "turkey": 1.6,
+    "saudi": 2,
+    "iran": -1,
+    "israel": 2.3,
+    "brazil": 1.6,
+    "uae": 2.3,
+    "indonesia": 1.7
+   }
+  },
+  {
+   "id": "japan",
+   "name": "Япония",
+   "isoNumeric": 392,
+   "start": {
+    "resources": {
+     "minerals": {
+      "B": 5.5,
+      "C": 0.05
+     },
+     "chem": {
+      "B": 9,
+      "C": 0.05
+     },
+     "energy": {
+      "B": 5,
+      "C": 0.1
+     },
+     "water": {
+      "B": 6.5,
+      "C": 0.05
+     },
+     "space": {
+      "B": 5.5,
+      "C": 0.05
+     },
+     "semis": {
+      "B": 8,
+      "C": 0.2
+     },
+     "compute": {
+      "B": 9,
+      "C": 0.15
+     },
+     "dc": {
+      "B": 8,
+      "C": 0.2
+     },
+     "network": {
+      "B": 9,
+      "C": 0.1
+     },
+     "devices": {
+      "B": 9,
+      "C": 0.1
+     },
+     "sw_base": {
+      "B": 8.5,
+      "C": 0.15
+     },
+     "sw_dev": {
+      "B": 8,
+      "C": 0.2
+     },
+     "sw_ops": {
+      "B": 8.5,
+      "C": 0.2
+     },
+     "math": {
+      "B": 8.5,
+      "C": 0.1
+     },
+     "methods": {
+      "B": 8,
+      "C": 0.15
+     },
+     "data_raw": {
+      "B": 8.5,
+      "C": 0.1
+     },
+     "data_derived": {
+      "B": 8.5,
+      "C": 0.15
+     },
+     "data_context": {
+      "B": 8.5,
+      "C": 0.1
+     },
+     "model_res": {
+      "B": 8,
+      "C": 0.2
+     },
+     "eval": {
+      "B": 8,
+      "C": 0.15
+     },
+     "docs": {
+      "B": 8.5,
+      "C": 0.1
+     },
+     "access": {
+      "B": 8,
+      "C": 0.1
+     },
+     "cyber": {
+      "B": 8.5,
+      "C": 0.15
+     },
+     "human": {
+      "B": 9,
+      "C": 0.15
+     },
+     "expertise": {
+      "B": 9.5,
+      "C": 0.05
+     },
+     "digitized": {
+      "B": 9,
+      "C": 0.15
+     },
+     "integration": {
+      "B": 8.5,
+      "C": 0.15
+     },
+     "org_arch": {
+      "B": 8,
+      "C": 0.15
+     },
+     "org_change": {
+      "B": 7.5,
+      "C": 0.2
+     },
+     "finance": {
+      "B": 9,
+      "C": 0.1
+     },
+     "providers": {
+      "B": 8.5,
+      "C": 0.1
+     },
+     "econ_viab": {
+      "B": 8.5,
+      "C": 0.05
+     },
+     "law": {
+      "B": 9,
+      "C": 0.05
+     },
+     "regulatory": {
+      "B": 8.5,
+      "C": 0.1
+     },
+     "institutions": {
+      "B": 9,
+      "C": 0.05
+     },
+     "trade_env": {
+      "B": 8.5,
+      "C": 0.05
+     },
+     "trust": {
+      "B": 6.5,
+      "C": 0.05
+     },
+     "workforce": {
+      "B": 7,
+      "C": 0.2
+     },
+     "local_fit": {
+      "B": 9,
+      "C": 0.05
+     },
+     "ai_gov": {
+      "B": 8.5,
+      "C": 0.1
+     },
+     "monitoring": {
+      "B": 9,
+      "C": 0.1
+     },
+     "renewal": {
+      "B": 9,
+      "C": 0.1
+     },
+     "recycling": {
+      "B": 9,
+      "C": 0.1
+     }
+    },
+    "spheres": {
+     "production": {
+      "L": 9,
+      "M": 0.15
+     },
+     "management": {
+      "L": 7.5,
+      "M": 0.2
+     },
+     "cognition": {
+      "L": 8.5,
+      "M": 0.15
+     },
+     "learning": {
+      "L": 7,
+      "M": 0.2
+     },
+     "war": {
+      "L": 7,
+      "M": 0.2
+     },
+     "economy": {
+      "L": 8.5,
+      "M": 0.2
+     },
+     "gov": {
+      "L": 7.5,
+      "M": 0.2
+     },
+     "adoption": {
+      "L": 5.5,
+      "M": 0.3
+     }
+    }
+   },
+   "relations": {
+    "russia": -1.4,
+    "usa": 4,
+    "china": -1,
+    "india": 2.8,
+    "uk": 2.8,
+    "france": 2.7,
+    "germany": 2.8,
+    "skorea": 2.2,
+    "turkey": 1.7,
+    "saudi": 2.5,
+    "iran": 0.4,
+    "israel": 1.2,
+    "brazil": 1.5,
+    "uae": 2.2,
+    "indonesia": 2.9
+   }
+  },
+  {
+   "id": "skorea",
+   "name": "Южная Корея",
+   "isoNumeric": 410,
+   "start": {
+    "resources": {
+     "minerals": {
+      "B": 4,
+      "C": 0.05
+     },
+     "chem": {
+      "B": 9,
+      "C": 0.05
+     },
+     "energy": {
+      "B": 5.5,
+      "C": 0.1
+     },
+     "water": {
+      "B": 6,
+      "C": 0.05
+     },
+     "space": {
+      "B": 4.5,
+      "C": 0.05
+     },
+     "semis": {
+      "B": 9.5,
+      "C": 0.15
+     },
+     "compute": {
+      "B": 9.5,
+      "C": 0.15
+     },
+     "dc": {
+      "B": 8,
+      "C": 0.2
+     },
+     "network": {
+      "B": 9.5,
+      "C": 0.1
+     },
+     "devices": {
+      "B": 9.5,
+      "C": 0.1
+     },
+     "sw_base": {
+      "B": 8,
+      "C": 0.15
+     },
+     "sw_dev": {
+      "B": 8.5,
+      "C": 0.2
+     },
+     "sw_ops": {
+      "B": 9,
+      "C": 0.15
+     },
+     "math": {
+      "B": 8,
+      "C": 0.1
+     },
+     "methods": {
+      "B": 8.5,
+      "C": 0.15
+     },
+     "data_raw": {
+      "B": 8.5,
+      "C": 0.1
+     },
+     "data_derived": {
+      "B": 8.5,
+      "C": 0.15
+     },
+     "data_context": {
+      "B": 8.5,
+      "C": 0.1
+     },
+     "model_res": {
+      "B": 8.5,
+      "C": 0.15
+     },
+     "eval": {
+      "B": 8,
+      "C": 0.15
+     },
+     "docs": {
+      "B": 8,
+      "C": 0.1
+     },
+     "access": {
+      "B": 8,
+      "C": 0.1
+     },
+     "cyber": {
+      "B": 9,
+      "C": 0.1
+     },
+     "human": {
+      "B": 9,
+      "C": 0.15
+     },
+     "expertise": {
+      "B": 9,
+      "C": 0.1
+     },
+     "digitized": {
+      "B": 9,
+      "C": 0.15
+     },
+     "integration": {
+      "B": 9.5,
+      "C": 0.1
+     },
+     "org_arch": {
+      "B": 9,
+      "C": 0.1
+     },
+     "org_change": {
+      "B": 8.5,
+      "C": 0.15
+     },
+     "finance": {
+      "B": 8.5,
+      "C": 0.1
+     },
+     "providers": {
+      "B": 9,
+      "C": 0.1
+     },
+     "econ_viab": {
+      "B": 9,
+      "C": 0.05
+     },
+     "law": {
+      "B": 9,
+      "C": 0.05
+     },
+     "regulatory": {
+      "B": 8.5,
+      "C": 0.1
+     },
+     "institutions": {
+      "B": 9,
+      "C": 0.05
+     },
+     "trade_env": {
+      "B": 9,
+      "C": 0.05
+     },
+     "trust": {
+      "B": 7,
+      "C": 0.05
+     },
+     "workforce": {
+      "B": 8.5,
+      "C": 0.2
+     },
+     "local_fit": {
+      "B": 9.5,
+      "C": 0.05
+     },
+     "ai_gov": {
+      "B": 8.5,
+      "C": 0.1
+     },
+     "monitoring": {
+      "B": 9,
+      "C": 0.1
+     },
+     "renewal": {
+      "B": 9,
+      "C": 0.1
+     },
+     "recycling": {
+      "B": 8.5,
+      "C": 0.1
+     }
+    },
+    "spheres": {
+     "production": {
+      "L": 9,
+      "M": 0.15
+     },
+     "management": {
+      "L": 7.5,
+      "M": 0.2
+     },
+     "cognition": {
+      "L": 8,
+      "M": 0.15
+     },
+     "learning": {
+      "L": 7.5,
+      "M": 0.2
+     },
+     "war": {
+      "L": 7,
+      "M": 0.2
+     },
+     "economy": {
+      "L": 8.5,
+      "M": 0.2
+     },
+     "gov": {
+      "L": 8,
+      "M": 0.2
+     },
+     "adoption": {
+      "L": 7,
+      "M": 0.25
+     }
+    }
+   },
+   "relations": {
+    "russia": -1,
+    "usa": 4,
+    "china": 0.6,
+    "india": 2,
+    "uk": 2.5,
+    "france": 2.4,
+    "germany": 2.6,
+    "japan": 2.1,
+    "turkey": 1.7,
+    "saudi": 2.5,
+    "iran": 0.1,
+    "israel": 1.4,
+    "brazil": 1.3,
+    "uae": 2.4,
+    "indonesia": 2.4
+   }
+  },
+  {
+   "id": "turkey",
+   "name": "Турция",
+   "isoNumeric": 792,
+   "start": {
+    "resources": {
+     "minerals": {
+      "B": 7,
+      "C": 0.1
+     },
+     "chem": {
+      "B": 6,
+      "C": 0.15
+     },
+     "energy": {
+      "B": 5.5,
+      "C": 0.15
+     },
+     "water": {
+      "B": 6,
+      "C": 0.1
+     },
+     "space": {
+      "B": 8,
+      "C": 0.05
+     },
+     "semis": {
+      "B": 2,
+      "C": 0.25
+     },
+     "compute": {
+      "B": 4.5,
+      "C": 0.25
+     },
+     "dc": {
+      "B": 6,
+      "C": 0.3
+     },
+     "network": {
+      "B": 7,
+      "C": 0.2
+     },
+     "devices": {
+      "B": 6.5,
+      "C": 0.15
+     },
+     "sw_base": {
+      "B": 6,
+      "C": 0.2
+     },
+     "sw_dev": {
+      "B": 6,
+      "C": 0.25
+     },
+     "sw_ops": {
+      "B": 6,
+      "C": 0.2
+     },
+     "math": {
+      "B": 7.5,
+      "C": 0.1
+     },
+     "methods": {
+      "B": 6.5,
+      "C": 0.2
+     },
+     "data_raw": {
+      "B": 7.5,
+      "C": 0.1
+     },
+     "data_derived": {
+      "B": 6.5,
+      "C": 0.2
+     },
+     "data_context": {
+      "B": 6.5,
+      "C": 0.15
+     },
+     "model_res": {
+      "B": 6,
+      "C": 0.25
+     },
+     "eval": {
+      "B": 6,
+      "C": 0.2
+     },
+     "docs": {
+      "B": 6,
+      "C": 0.15
+     },
+     "access": {
+      "B": 6,
+      "C": 0.15
+     },
+     "cyber": {
+      "B": 7,
+      "C": 0.2
+     },
+     "human": {
+      "B": 7.5,
+      "C": 0.2
+     },
+     "expertise": {
+      "B": 7.5,
+      "C": 0.1
+     },
+     "digitized": {
+      "B": 7.5,
+      "C": 0.2
+     },
+     "integration": {
+      "B": 6.5,
+      "C": 0.25
+     },
+     "org_arch": {
+      "B": 6.5,
+      "C": 0.2
+     },
+     "org_change": {
+      "B": 7,
+      "C": 0.2
+     },
+     "finance": {
+      "B": 6.5,
+      "C": 0.2
+     },
+     "providers": {
+      "B": 7,
+      "C": 0.2
+     },
+     "econ_viab": {
+      "B": 7.5,
+      "C": 0.1
+     },
+     "law": {
+      "B": 6,
+      "C": 0.15
+     },
+     "regulatory": {
+      "B": 6.5,
+      "C": 0.2
+     },
+     "institutions": {
+      "B": 6.5,
+      "C": 0.15
+     },
+     "trade_env": {
+      "B": 6,
+      "C": 0.1
+     },
+     "trust": {
+      "B": 6,
+      "C": 0.1
+     },
+     "workforce": {
+      "B": 7.5,
+      "C": 0.25
+     },
+     "local_fit": {
+      "B": 9,
+      "C": 0.05
+     },
+     "ai_gov": {
+      "B": 6.5,
+      "C": 0.2
+     },
+     "monitoring": {
+      "B": 6.5,
+      "C": 0.2
+     },
+     "renewal": {
+      "B": 6.5,
+      "C": 0.2
+     },
+     "recycling": {
+      "B": 6,
+      "C": 0.15
+     }
+    },
+    "spheres": {
+     "production": {
+      "L": 6.5,
+      "M": 0.3
+     },
+     "management": {
+      "L": 6.5,
+      "M": 0.25
+     },
+     "cognition": {
+      "L": 6.5,
+      "M": 0.25
+     },
+     "learning": {
+      "L": 6.5,
+      "M": 0.3
+     },
+     "war": {
+      "L": 7,
+      "M": 0.25
+     },
+     "economy": {
+      "L": 7,
+      "M": 0.3
+     },
+     "gov": {
+      "L": 7,
+      "M": 0.3
+     },
+     "adoption": {
+      "L": 7.5,
+      "M": 0.25
+     }
+    }
+   },
+   "relations": {
+    "russia": 1.6,
+    "usa": 2.2,
+    "china": 1.6,
+    "india": -0.6,
+    "uk": 2.3,
+    "france": 1,
+    "germany": 1.5,
+    "japan": 1.8,
+    "skorea": 1.7,
+    "saudi": 2.4,
+    "iran": 1.2,
+    "israel": -1.7,
+    "brazil": 1.2,
+    "uae": 2.4,
+    "indonesia": 2.5
+   }
+  },
+  {
+   "id": "saudi",
+   "name": "Саудовская Аравия",
+   "isoNumeric": 682,
+   "start": {
+    "resources": {
+     "minerals": {
+      "B": 8,
+      "C": 0.05
+     },
+     "chem": {
+      "B": 8,
+      "C": 0.1
+     },
+     "energy": {
+      "B": 10,
+      "C": 0
+     },
+     "water": {
+      "B": 3,
+      "C": 0.05
+     },
+     "space": {
+      "B": 9,
+      "C": 0.05
+     },
+     "semis": {
+      "B": 2.5,
+      "C": 0.3
+     },
+     "compute": {
+      "B": 6.5,
+      "C": 0.3
+     },
+     "dc": {
+      "B": 8.5,
+      "C": 0.35
+     },
+     "network": {
+      "B": 9,
+      "C": 0.2
+     },
+     "devices": {
+      "B": 8,
+      "C": 0.15
+     },
+     "sw_base": {
+      "B": 6.5,
+      "C": 0.25
+     },
+     "sw_dev": {
+      "B": 7,
+      "C": 0.3
+     },
+     "sw_ops": {
+      "B": 6.5,
+      "C": 0.3
+     },
+     "math": {
+      "B": 6,
+      "C": 0.2
+     },
+     "methods": {
+      "B": 6.5,
+      "C": 0.25
+     },
+     "data_raw": {
+      "B": 7.5,
+      "C": 0.2
+     },
+     "data_derived": {
+      "B": 7,
+      "C": 0.25
+     },
+     "data_context": {
+      "B": 7,
+      "C": 0.25
+     },
+     "model_res": {
+      "B": 7,
+      "C": 0.3
+     },
+     "eval": {
+      "B": 6.5,
+      "C": 0.25
+     },
+     "docs": {
+      "B": 6.5,
+      "C": 0.2
+     },
+     "access": {
+      "B": 6.5,
+      "C": 0.2
+     },
+     "cyber": {
+      "B": 8,
+      "C": 0.2
+     },
+     "human": {
+      "B": 8,
+      "C": 0.25
+     },
+     "expertise": {
+      "B": 8,
+      "C": 0.15
+     },
+     "digitized": {
+      "B": 8.5,
+      "C": 0.3
+     },
+     "integration": {
+      "B": 8,
+      "C": 0.3
+     },
+     "org_arch": {
+      "B": 8.5,
+      "C": 0.3
+     },
+     "org_change": {
+      "B": 8.5,
+      "C": 0.3
+     },
+     "finance": {
+      "B": 9.5,
+      "C": 0.1
+     },
+     "providers": {
+      "B": 8,
+      "C": 0.3
+     },
+     "econ_viab": {
+      "B": 8.5,
+      "C": 0.2
+     },
+     "law": {
+      "B": 7,
+      "C": 0.2
+     },
+     "regulatory": {
+      "B": 8,
+      "C": 0.25
+     },
+     "institutions": {
+      "B": 8.5,
+      "C": 0.25
+     },
+     "trade_env": {
+      "B": 7,
+      "C": 0.15
+     },
+     "trust": {
+      "B": 7.5,
+      "C": 0.15
+     },
+     "workforce": {
+      "B": 8,
+      "C": 0.3
+     },
+     "local_fit": {
+      "B": 8.5,
+      "C": 0.15
+     },
+     "ai_gov": {
+      "B": 8,
+      "C": 0.25
+     },
+     "monitoring": {
+      "B": 7.5,
+      "C": 0.25
+     },
+     "renewal": {
+      "B": 7.5,
+      "C": 0.25
+     },
+     "recycling": {
+      "B": 6.5,
+      "C": 0.2
+     }
+    },
+    "spheres": {
+     "production": {
+      "L": 7,
+      "M": 0.35
+     },
+     "management": {
+      "L": 8,
+      "M": 0.3
+     },
+     "cognition": {
+      "L": 7,
+      "M": 0.3
+     },
+     "learning": {
+      "L": 7.5,
+      "M": 0.35
+     },
+     "war": {
+      "L": 7.5,
+      "M": 0.25
+     },
+     "economy": {
+      "L": 8,
+      "M": 0.35
+     },
+     "gov": {
+      "L": 9,
+      "M": 0.25
+     },
+     "adoption": {
+      "L": 8.5,
+      "M": 0.3
+     }
+    }
+   },
+   "relations": {
+    "russia": 1.5,
+    "usa": 3.2,
+    "china": 2.9,
+    "india": 2.8,
+    "uk": 2.5,
+    "france": 2.5,
+    "germany": 2.1,
+    "japan": 2.6,
+    "skorea": 2.6,
+    "turkey": 2.5,
+    "iran": 1,
+    "israel": -0.4,
+    "brazil": 1.8,
+    "uae": 3.6,
+    "indonesia": 2.3
+   }
+  },
+  {
+   "id": "iran",
+   "name": "Иран",
+   "isoNumeric": 364,
+   "start": {
+    "resources": {
+     "minerals": {
+      "B": 8,
+      "C": 0.1
+     },
+     "chem": {
+      "B": 7,
+      "C": 0.1
+     },
+     "energy": {
+      "B": 9.5,
+      "C": 0.05
+     },
+     "water": {
+      "B": 3.5,
+      "C": 0.05
+     },
+     "space": {
+      "B": 8,
+      "C": 0.05
+     },
+     "semis": {
+      "B": 2,
+      "C": 0.2
+     },
+     "compute": {
+      "B": 3,
+      "C": 0.2
+     },
+     "dc": {
+      "B": 4.5,
+      "C": 0.25
+     },
+     "network": {
+      "B": 5.5,
+      "C": 0.2
+     },
+     "devices": {
+      "B": 5,
+      "C": 0.15
+     },
+     "sw_base": {
+      "B": 5.5,
+      "C": 0.2
+     },
+     "sw_dev": {
+      "B": 5.5,
+      "C": 0.25
+     },
+     "sw_ops": {
+      "B": 5,
+      "C": 0.2
+     },
+     "math": {
+      "B": 8,
+      "C": 0.1
+     },
+     "methods": {
+      "B": 6.5,
+      "C": 0.2
+     },
+     "data_raw": {
+      "B": 7,
+      "C": 0.1
+     },
+     "data_derived": {
+      "B": 5.5,
+      "C": 0.2
+     },
+     "data_context": {
+      "B": 6,
+      "C": 0.15
+     },
+     "model_res": {
+      "B": 5.5,
+      "C": 0.2
+     },
+     "eval": {
+      "B": 5.5,
+      "C": 0.2
+     },
+     "docs": {
+      "B": 5.5,
+      "C": 0.15
+     },
+     "access": {
+      "B": 5.5,
+      "C": 0.15
+     },
+     "cyber": {
+      "B": 7.5,
+      "C": 0.2
+     },
+     "human": {
+      "B": 7.5,
+      "C": 0.2
+     },
+     "expertise": {
+      "B": 8,
+      "C": 0.1
+     },
+     "digitized": {
+      "B": 6.5,
+      "C": 0.2
+     },
+     "integration": {
+      "B": 5,
+      "C": 0.2
+     },
+     "org_arch": {
+      "B": 5.5,
+      "C": 0.2
+     },
+     "org_change": {
+      "B": 6,
+      "C": 0.2
+     },
+     "finance": {
+      "B": 4.5,
+      "C": 0.15
+     },
+     "providers": {
+      "B": 5,
+      "C": 0.2
+     },
+     "econ_viab": {
+      "B": 7,
+      "C": 0.1
+     },
+     "law": {
+      "B": 4,
+      "C": 0.1
+     },
+     "regulatory": {
+      "B": 5,
+      "C": 0.15
+     },
+     "institutions": {
+      "B": 5,
+      "C": 0.15
+     },
+     "trade_env": {
+      "B": 2.5,
+      "C": -0.05
+     },
+     "trust": {
+      "B": 5.5,
+      "C": 0.1
+     },
+     "workforce": {
+      "B": 6.5,
+      "C": 0.25
+     },
+     "local_fit": {
+      "B": 9,
+      "C": 0.05
+     },
+     "ai_gov": {
+      "B": 6,
+      "C": 0.2
+     },
+     "monitoring": {
+      "B": 5.5,
+      "C": 0.2
+     },
+     "renewal": {
+      "B": 5,
+      "C": 0.2
+     },
+     "recycling": {
+      "B": 5.5,
+      "C": 0.15
+     }
+    },
+    "spheres": {
+     "production": {
+      "L": 5.5,
+      "M": 0.25
+     },
+     "management": {
+      "L": 5.5,
+      "M": 0.25
+     },
+     "cognition": {
+      "L": 7,
+      "M": 0.2
+     },
+     "learning": {
+      "L": 6.5,
+      "M": 0.25
+     },
+     "war": {
+      "L": 7,
+      "M": 0.2
+     },
+     "economy": {
+      "L": 5.5,
+      "M": 0.25
+     },
+     "gov": {
+      "L": 6.5,
+      "M": 0.25
+     },
+     "adoption": {
+      "L": 6.5,
+      "M": 0.25
+     }
+    }
+   },
+   "relations": {
+    "russia": 3,
+    "usa": -2,
+    "china": 3.2,
+    "india": 1.8,
+    "uk": -1.4,
+    "france": -1.1,
+    "germany": -1.1,
+    "japan": 0.4,
+    "skorea": 0.2,
+    "turkey": 1.3,
+    "saudi": 1.1,
+    "israel": -4,
+    "brazil": 2,
+    "uae": 1.2,
+    "indonesia": 1.6
+   }
+  },
+  {
+   "id": "israel",
+   "name": "Израиль",
+   "isoNumeric": 376,
+   "start": {
+    "resources": {
+     "minerals": {
+      "B": 3,
+      "C": 0.05
+     },
+     "chem": {
+      "B": 7,
+      "C": 0.1
+     },
+     "energy": {
+      "B": 6.5,
+      "C": 0.1
+     },
+     "water": {
+      "B": 9,
+      "C": 0.05
+     },
+     "space": {
+      "B": 3.5,
+      "C": 0.05
+     },
+     "semis": {
+      "B": 7.5,
+      "C": 0.15
+     },
+     "compute": {
+      "B": 8.5,
+      "C": 0.15
+     },
+     "dc": {
+      "B": 8,
+      "C": 0.2
+     },
+     "network": {
+      "B": 8,
+      "C": 0.15
+     },
+     "devices": {
+      "B": 7.5,
+      "C": 0.1
+     },
+     "sw_base": {
+      "B": 9,
+      "C": 0.15
+     },
+     "sw_dev": {
+      "B": 9.5,
+      "C": 0.15
+     },
+     "sw_ops": {
+      "B": 9,
+      "C": 0.15
+     },
+     "math": {
+      "B": 9.5,
+      "C": 0.1
+     },
+     "methods": {
+      "B": 9.5,
+      "C": 0.1
+     },
+     "data_raw": {
+      "B": 8,
+      "C": 0.1
+     },
+     "data_derived": {
+      "B": 8.5,
+      "C": 0.15
+     },
+     "data_context": {
+      "B": 8.5,
+      "C": 0.1
+     },
+     "model_res": {
+      "B": 9,
+      "C": 0.15
+     },
+     "eval": {
+      "B": 9,
+      "C": 0.1
+     },
+     "docs": {
+      "B": 9,
+      "C": 0.1
+     },
+     "access": {
+      "B": 8.5,
+      "C": 0.1
+     },
+     "cyber": {
+      "B": 10,
+      "C": 0
+     },
+     "human": {
+      "B": 9.5,
+      "C": 0.1
+     },
+     "expertise": {
+      "B": 9,
+      "C": 0.1
+     },
+     "digitized": {
+      "B": 9,
+      "C": 0.15
+     },
+     "integration": {
+      "B": 8.5,
+      "C": 0.15
+     },
+     "org_arch": {
+      "B": 8.5,
+      "C": 0.15
+     },
+     "org_change": {
+      "B": 9,
+      "C": 0.15
+     },
+     "finance": {
+      "B": 9.5,
+      "C": 0.1
+     },
+     "providers": {
+      "B": 9.5,
+      "C": 0.1
+     },
+     "econ_viab": {
+      "B": 9,
+      "C": 0.05
+     },
+     "law": {
+      "B": 8.5,
+      "C": 0.1
+     },
+     "regulatory": {
+      "B": 8.5,
+      "C": 0.1
+     },
+     "institutions": {
+      "B": 8,
+      "C": 0.1
+     },
+     "trade_env": {
+      "B": 8.5,
+      "C": 0.05
+     },
+     "trust": {
+      "B": 6.5,
+      "C": 0.05
+     },
+     "workforce": {
+      "B": 9,
+      "C": 0.15
+     },
+     "local_fit": {
+      "B": 9,
+      "C": 0.05
+     },
+     "ai_gov": {
+      "B": 8.5,
+      "C": 0.1
+     },
+     "monitoring": {
+      "B": 8.5,
+      "C": 0.1
+     },
+     "renewal": {
+      "B": 8.5,
+      "C": 0.1
+     },
+     "recycling": {
+      "B": 7.5,
+      "C": 0.1
+     }
+    },
+    "spheres": {
+     "production": {
+      "L": 7,
+      "M": 0.25
+     },
+     "management": {
+      "L": 8,
+      "M": 0.2
+     },
+     "cognition": {
+      "L": 8.5,
+      "M": 0.15
+     },
+     "learning": {
+      "L": 7.5,
+      "M": 0.2
+     },
+     "war": {
+      "L": 8.5,
+      "M": 0.15
+     },
+     "economy": {
+      "L": 8,
+      "M": 0.2
+     },
+     "gov": {
+      "L": 7.5,
+      "M": 0.2
+     },
+     "adoption": {
+      "L": 7.5,
+      "M": 0.2
+     }
+    }
+   },
+   "relations": {
+    "russia": -0.4,
+    "usa": 4.1,
+    "china": 0,
+    "india": 3.2,
+    "uk": 1.5,
+    "france": 1,
+    "germany": 2.4,
+    "japan": 1.2,
+    "skorea": 1.4,
+    "turkey": -1.8,
+    "saudi": -0.2,
+    "iran": -4,
+    "brazil": -0.9,
+    "uae": 2.2,
+    "indonesia": -1.1
+   }
+  },
+  {
+   "id": "brazil",
+   "name": "Бразилия",
+   "isoNumeric": 76,
+   "start": {
+    "resources": {
+     "minerals": {
+      "B": 9.5,
+      "C": 0.05
+     },
+     "chem": {
+      "B": 6,
+      "C": 0.15
+     },
+     "energy": {
+      "B": 9,
+      "C": 0.1
+     },
+     "water": {
+      "B": 9.5,
+      "C": 0.05
+     },
+     "space": {
+      "B": 9.5,
+      "C": 0.05
+     },
+     "semis": {
+      "B": 2.5,
+      "C": 0.25
+     },
+     "compute": {
+      "B": 4.5,
+      "C": 0.25
+     },
+     "dc": {
+      "B": 6.5,
+      "C": 0.3
+     },
+     "network": {
+      "B": 7,
+      "C": 0.2
+     },
+     "devices": {
+      "B": 6.5,
+      "C": 0.15
+     },
+     "sw_base": {
+      "B": 6.5,
+      "C": 0.2
+     },
+     "sw_dev": {
+      "B": 6.5,
+      "C": 0.25
+     },
+     "sw_ops": {
+      "B": 6,
+      "C": 0.25
+     },
+     "math": {
+      "B": 7,
+      "C": 0.15
+     },
+     "methods": {
+      "B": 6.5,
+      "C": 0.2
+     },
+     "data_raw": {
+      "B": 8.5,
+      "C": 0.1
+     },
+     "data_derived": {
+      "B": 7,
+      "C": 0.2
+     },
+     "data_context": {
+      "B": 7.5,
+      "C": 0.15
+     },
+     "model_res": {
+      "B": 6.5,
+      "C": 0.25
+     },
+     "eval": {
+      "B": 6.5,
+      "C": 0.2
+     },
+     "docs": {
+      "B": 6.5,
+      "C": 0.15
+     },
+     "access": {
+      "B": 6.5,
+      "C": 0.15
+     },
+     "cyber": {
+      "B": 7.5,
+      "C": 0.2
+     },
+     "human": {
+      "B": 8,
+      "C": 0.2
+     },
+     "expertise": {
+      "B": 8.5,
+      "C": 0.1
+     },
+     "digitized": {
+      "B": 7.5,
+      "C": 0.25
+     },
+     "integration": {
+      "B": 6.5,
+      "C": 0.25
+     },
+     "org_arch": {
+      "B": 6.5,
+      "C": 0.2
+     },
+     "org_change": {
+      "B": 7,
+      "C": 0.2
+     },
+     "finance": {
+      "B": 7,
+      "C": 0.2
+     },
+     "providers": {
+      "B": 7,
+      "C": 0.2
+     },
+     "econ_viab": {
+      "B": 8,
+      "C": 0.1
+     },
+     "law": {
+      "B": 7.5,
+      "C": 0.15
+     },
+     "regulatory": {
+      "B": 7.5,
+      "C": 0.15
+     },
+     "institutions": {
+      "B": 7,
+      "C": 0.15
+     },
+     "trade_env": {
+      "B": 7.5,
+      "C": 0.1
+     },
+     "trust": {
+      "B": 6.5,
+      "C": 0.1
+     },
+     "workforce": {
+      "B": 7.5,
+      "C": 0.25
+     },
+     "local_fit": {
+      "B": 9.5,
+      "C": 0.05
+     },
+     "ai_gov": {
+      "B": 7,
+      "C": 0.2
+     },
+     "monitoring": {
+      "B": 6.5,
+      "C": 0.2
+     },
+     "renewal": {
+      "B": 6.5,
+      "C": 0.2
+     },
+     "recycling": {
+      "B": 6,
+      "C": 0.15
+     }
+    },
+    "spheres": {
+     "production": {
+      "L": 6.5,
+      "M": 0.3
+     },
+     "management": {
+      "L": 6.5,
+      "M": 0.25
+     },
+     "cognition": {
+      "L": 7,
+      "M": 0.2
+     },
+     "learning": {
+      "L": 6,
+      "M": 0.3
+     },
+     "war": {
+      "L": 6,
+      "M": 0.2
+     },
+     "economy": {
+      "L": 7,
+      "M": 0.3
+     },
+     "gov": {
+      "L": 7,
+      "M": 0.3
+     },
+     "adoption": {
+      "L": 8,
+      "M": 0.25
+     }
+    }
+   },
+   "relations": {
+    "russia": 1.9,
+    "usa": 1.1,
+    "china": 3.2,
+    "india": 2.5,
+    "uk": 1.6,
+    "france": 1.9,
+    "germany": 1.7,
+    "japan": 1.5,
+    "skorea": 1.3,
+    "turkey": 1.3,
+    "saudi": 1.7,
+    "iran": 2,
+    "israel": -1,
+    "uae": 2.2,
+    "indonesia": 2
+   }
+  },
+  {
+   "id": "uae",
+   "name": "ОАЭ",
+   "isoNumeric": 784,
+   "start": {
+    "resources": {
+     "minerals": {
+      "B": 7.5,
+      "C": 0.05
+     },
+     "chem": {
+      "B": 7.5,
+      "C": 0.1
+     },
+     "energy": {
+      "B": 9.5,
+      "C": 0.05
+     },
+     "water": {
+      "B": 4,
+      "C": 0.05
+     },
+     "space": {
+      "B": 6,
+      "C": 0.05
+     },
+     "semis": {
+      "B": 2,
+      "C": 0.3
+     },
+     "compute": {
+      "B": 7,
+      "C": 0.3
+     },
+     "dc": {
+      "B": 8.5,
+      "C": 0.35
+     },
+     "network": {
+      "B": 9.5,
+      "C": 0.15
+     },
+     "devices": {
+      "B": 9,
+      "C": 0.1
+     },
+     "sw_base": {
+      "B": 7.5,
+      "C": 0.25
+     },
+     "sw_dev": {
+      "B": 8,
+      "C": 0.3
+     },
+     "sw_ops": {
+      "B": 7.5,
+      "C": 0.3
+     },
+     "math": {
+      "B": 7,
+      "C": 0.2
+     },
+     "methods": {
+      "B": 7.5,
+      "C": 0.25
+     },
+     "data_raw": {
+      "B": 7.5,
+      "C": 0.2
+     },
+     "data_derived": {
+      "B": 7.5,
+      "C": 0.25
+     },
+     "data_context": {
+      "B": 8,
+      "C": 0.25
+     },
+     "model_res": {
+      "B": 7.5,
+      "C": 0.3
+     },
+     "eval": {
+      "B": 7,
+      "C": 0.25
+     },
+     "docs": {
+      "B": 7.5,
+      "C": 0.2
+     },
+     "access": {
+      "B": 7.5,
+      "C": 0.2
+     },
+     "cyber": {
+      "B": 8.5,
+      "C": 0.2
+     },
+     "human": {
+      "B": 8.5,
+      "C": 0.25
+     },
+     "expertise": {
+      "B": 8,
+      "C": 0.15
+     },
+     "digitized": {
+      "B": 9,
+      "C": 0.25
+     },
+     "integration": {
+      "B": 8.5,
+      "C": 0.3
+     },
+     "org_arch": {
+      "B": 9,
+      "C": 0.25
+     },
+     "org_change": {
+      "B": 9,
+      "C": 0.25
+     },
+     "finance": {
+      "B": 10,
+      "C": 0
+     },
+     "providers": {
+      "B": 8.5,
+      "C": 0.3
+     },
+     "econ_viab": {
+      "B": 9,
+      "C": 0.15
+     },
+     "law": {
+      "B": 8,
+      "C": 0.15
+     },
+     "regulatory": {
+      "B": 9,
+      "C": 0.2
+     },
+     "institutions": {
+      "B": 9,
+      "C": 0.2
+     },
+     "trade_env": {
+      "B": 8,
+      "C": 0.1
+     },
+     "trust": {
+      "B": 8,
+      "C": 0.1
+     },
+     "workforce": {
+      "B": 9,
+      "C": 0.25
+     },
+     "local_fit": {
+      "B": 9,
+      "C": 0.05
+     },
+     "ai_gov": {
+      "B": 9,
+      "C": 0.2
+     },
+     "monitoring": {
+      "B": 8,
+      "C": 0.2
+     },
+     "renewal": {
+      "B": 8,
+      "C": 0.2
+     },
+     "recycling": {
+      "B": 7,
+      "C": 0.15
+     }
+    },
+    "spheres": {
+     "production": {
+      "L": 7,
+      "M": 0.35
+     },
+     "management": {
+      "L": 8.5,
+      "M": 0.3
+     },
+     "cognition": {
+      "L": 7.5,
+      "M": 0.3
+     },
+     "learning": {
+      "L": 7.5,
+      "M": 0.35
+     },
+     "war": {
+      "L": 7,
+      "M": 0.25
+     },
+     "economy": {
+      "L": 8.5,
+      "M": 0.3
+     },
+     "gov": {
+      "L": 8.5,
+      "M": 0.25
+     },
+     "adoption": {
+      "L": 8.5,
+      "M": 0.25
+     }
+    }
+   },
+   "relations": {
+    "russia": 2.1,
+    "usa": 3.2,
+    "china": 3,
+    "india": 3.2,
+    "uk": 2.8,
+    "france": 3.1,
+    "germany": 2.3,
+    "japan": 2.3,
+    "skorea": 2.4,
+    "turkey": 2.5,
+    "saudi": 3.5,
+    "iran": 1.2,
+    "israel": 2.2,
+    "brazil": 2.1,
+    "indonesia": 2.3
+   }
+  },
+  {
+   "id": "indonesia",
+   "name": "Индонезия",
+   "isoNumeric": 360,
+   "start": {
+    "resources": {
+     "minerals": {
+      "B": 9,
+      "C": 0.05
+     },
+     "chem": {
+      "B": 5.5,
+      "C": 0.15
+     },
+     "energy": {
+      "B": 8,
+      "C": 0.1
+     },
+     "water": {
+      "B": 8,
+      "C": 0.05
+     },
+     "space": {
+      "B": 9,
+      "C": 0.05
+     },
+     "semis": {
+      "B": 2,
+      "C": 0.3
+     },
+     "compute": {
+      "B": 4,
+      "C": 0.3
+     },
+     "dc": {
+      "B": 6.5,
+      "C": 0.35
+     },
+     "network": {
+      "B": 7,
+      "C": 0.25
+     },
+     "devices": {
+      "B": 7,
+      "C": 0.2
+     },
+     "sw_base": {
+      "B": 6,
+      "C": 0.25
+     },
+     "sw_dev": {
+      "B": 6,
+      "C": 0.3
+     },
+     "sw_ops": {
+      "B": 5.5,
+      "C": 0.3
+     },
+     "math": {
+      "B": 6.5,
+      "C": 0.2
+     },
+     "methods": {
+      "B": 6,
+      "C": 0.25
+     },
+     "data_raw": {
+      "B": 8.5,
+      "C": 0.1
+     },
+     "data_derived": {
+      "B": 6.5,
+      "C": 0.25
+     },
+     "data_context": {
+      "B": 7,
+      "C": 0.2
+     },
+     "model_res": {
+      "B": 6,
+      "C": 0.3
+     },
+     "eval": {
+      "B": 6,
+      "C": 0.25
+     },
+     "docs": {
+      "B": 6,
+      "C": 0.2
+     },
+     "access": {
+      "B": 6,
+      "C": 0.2
+     },
+     "cyber": {
+      "B": 6.5,
+      "C": 0.25
+     },
+     "human": {
+      "B": 7.5,
+      "C": 0.25
+     },
+     "expertise": {
+      "B": 7.5,
+      "C": 0.15
+     },
+     "digitized": {
+      "B": 7.5,
+      "C": 0.3
+     },
+     "integration": {
+      "B": 6.5,
+      "C": 0.3
+     },
+     "org_arch": {
+      "B": 6.5,
+      "C": 0.25
+     },
+     "org_change": {
+      "B": 7.5,
+      "C": 0.25
+     },
+     "finance": {
+      "B": 7,
+      "C": 0.25
+     },
+     "providers": {
+      "B": 7,
+      "C": 0.25
+     },
+     "econ_viab": {
+      "B": 8.5,
+      "C": 0.1
+     },
+     "law": {
+      "B": 6.5,
+      "C": 0.2
+     },
+     "regulatory": {
+      "B": 6.5,
+      "C": 0.2
+     },
+     "institutions": {
+      "B": 6.5,
+      "C": 0.2
+     },
+     "trade_env": {
+      "B": 7,
+      "C": 0.15
+     },
+     "trust": {
+      "B": 7.5,
+      "C": 0.15
+     },
+     "workforce": {
+      "B": 8,
+      "C": 0.3
+     },
+     "local_fit": {
+      "B": 10,
+      "C": 0
+     },
+     "ai_gov": {
+      "B": 6.5,
+      "C": 0.25
+     },
+     "monitoring": {
+      "B": 6,
+      "C": 0.25
+     },
+     "renewal": {
+      "B": 6,
+      "C": 0.25
+     },
+     "recycling": {
+      "B": 5.5,
+      "C": 0.2
+     }
+    },
+    "spheres": {
+     "production": {
+      "L": 6.5,
+      "M": 0.35
+     },
+     "management": {
+      "L": 6.5,
+      "M": 0.3
+     },
+     "cognition": {
+      "L": 6.5,
+      "M": 0.3
+     },
+     "learning": {
+      "L": 6.5,
+      "M": 0.35
+     },
+     "war": {
+      "L": 5.5,
+      "M": 0.25
+     },
+     "economy": {
+      "L": 7.5,
+      "M": 0.35
+     },
+     "gov": {
+      "L": 7.5,
+      "M": 0.35
+     },
+     "adoption": {
+      "L": 9,
+      "M": 0.2
+     }
+    }
+   },
+   "relations": {
+    "russia": 2,
+    "usa": 2.3,
+    "china": 2.7,
+    "india": 2.3,
+    "uk": 1.8,
+    "france": 1.8,
+    "germany": 1.7,
+    "japan": 2.9,
+    "skorea": 2.4,
+    "turkey": 2.5,
+    "saudi": 2.4,
+    "iran": 1.6,
+    "israel": -1.2,
+    "brazil": 2,
+    "uae": 2.3
+   }
+  }
+ ],
+ "techs": [
+  {
+   "id": "C1",
+   "branch": "Вычисления и аппаратная база",
+   "level": "I",
+   "name": "Энергоэффективные ИИ-ускорители",
+   "cost": 20,
+   "prereqs": [],
+   "essence": "Специализированные ускорители с лучшим отношением вычислений к энергопотреблению.",
+   "effectText": "Вычислительные компоненты +0,2; прирост ЦОД +0,05/год",
+   "effects": [
+    {
+     "target": "res:compute",
+     "kind": "PZ",
+     "value": 0.2
+    },
+    {
+     "target": "res:dc",
+     "kind": "PP",
+     "value": 0.05
+    }
+   ]
+  },
+  {
+   "id": "C2",
+   "branch": "Вычисления и аппаратная база",
+   "level": "II",
+   "name": "Проектирование специализированных ускорителей",
+   "cost": 40,
+   "prereqs": [
+    "C1"
+   ],
+   "essence": "Собственные архитектуры ускорителей и средств их проектирования.",
+   "effectText": "Вычислительные компоненты +0,3; их прирост +0,08/год",
+   "effects": [
+    {
+     "target": "res:compute",
+     "kind": "PZ",
+     "value": 0.3
+    },
+    {
+     "target": "res:compute",
+     "kind": "PP",
+     "value": 0.08
+    }
+   ]
+  },
+  {
+   "id": "C3",
+   "branch": "Вычисления и аппаратная база",
+   "level": "II",
+   "name": "Передовая микроэлектроника для ИИ",
+   "cost": 45,
+   "prereqs": [
+    "C1"
+   ],
+   "essence": "Технологическая база для специализированных чипов, памяти и упаковки.",
+   "effectText": "Полупроводниковое производство +0,4; его прирост +0,08/год",
+   "effects": [
+    {
+     "target": "res:semis",
+     "kind": "PZ",
+     "value": 0.4
+    },
+    {
+     "target": "res:semis",
+     "kind": "PP",
+     "value": 0.08
+    }
+   ]
+  },
+  {
+   "id": "C4",
+   "branch": "Вычисления и аппаратная база",
+   "level": "III",
+   "name": "Гетерогенные вычислительные кластеры",
+   "cost": 65,
+   "prereqs": [
+    "C2",
+    "C3"
+   ],
+   "essence": "Совместное использование CPU, GPU, специализированных ускорителей и распределённой памяти.",
+   "effectText": "ЦОД +0,4; Стек эксплуатации ИИ +0,2; прирост ЦОД +0,05/год",
+   "effects": [
+    {
+     "target": "res:dc",
+     "kind": "PZ",
+     "value": 0.4
+    },
+    {
+     "target": "res:sw_ops",
+     "kind": "PZ",
+     "value": 0.2
+    },
+    {
+     "target": "res:dc",
+     "kind": "PP",
+     "value": 0.05
+    }
+   ]
+  },
+  {
+   "id": "C5",
+   "branch": "Вычисления и аппаратная база",
+   "level": "IV",
+   "name": "Суверенная распределённая вычислительная сеть",
+   "cost": 100,
+   "prereqs": [
+    "C4"
+   ],
+   "essence": "Национальная сеть взаимозаменяемых ЦОД и вычислительных узлов.",
+   "effectText": "Сетевые ресурсы +0,4; прирост ЦОД +0,10/год; защита Афины +15%",
+   "effects": [
+    {
+     "target": "res:network",
+     "kind": "PZ",
+     "value": 0.4
+    },
+    {
+     "target": "res:dc",
+     "kind": "PP",
+     "value": 0.1
+    },
+    {
+     "target": "mod:athena_def",
+     "kind": "MOD",
+     "value": 0.15
+    }
+   ]
+  },
+  {
+   "id": "C6",
+   "branch": "Вычисления и аппаратная база",
+   "level": "V",
+   "name": "Новые вычислительные архитектуры",
+   "cost": 150,
+   "prereqs": [
+    "C5"
+   ],
+   "essence": "Нейроморфные, вычислительно-памятные и иные постфоннеймановские архитектуры.",
+   "effectText": "Вычислительные компоненты +0,5; Математико-алгоритмические ресурсы +0,3; исследования ветви Модели +10%",
+   "effects": [
+    {
+     "target": "res:compute",
+     "kind": "PZ",
+     "value": 0.5
+    },
+    {
+     "target": "res:math",
+     "kind": "PZ",
+     "value": 0.3
+    },
+    {
+     "target": "mod:science_branch_M",
+     "kind": "MOD",
+     "value": 0.1
+    }
+   ]
+  },
+  {
+   "id": "M1",
+   "branch": "Модели и алгоритмы",
+   "level": "I",
+   "name": "Эффективное обучение моделей",
+   "cost": 20,
+   "prereqs": [],
+   "essence": "Улучшенные методы оптимизации, сжатия и обучения моделей.",
+   "effectText": "Методы построения моделей +0,2; их прирост +0,05/год",
+   "effects": [
+    {
+     "target": "res:methods",
+     "kind": "PZ",
+     "value": 0.2
+    },
+    {
+     "target": "res:methods",
+     "kind": "PP",
+     "value": 0.05
+    }
+   ]
+  },
+  {
+   "id": "M2",
+   "branch": "Модели и алгоритмы",
+   "level": "II",
+   "name": "Мультимодальные фундаментальные модели",
+   "cost": 40,
+   "prereqs": [
+    "M1"
+   ],
+   "essence": "Совместная работа с текстом, изображениями, звуком, видео и другими модальностями.",
+   "effectText": "Модельные ресурсы +0,3; прирост Принятия ИИ +0,05/год; атака Аполлона +10%",
+   "effects": [
+    {
+     "target": "res:model_res",
+     "kind": "PZ",
+     "value": 0.3
+    },
+    {
+     "target": "sph:adoption",
+     "kind": "PP",
+     "value": 0.05
+    },
+    {
+     "target": "mod:apollo_att",
+     "kind": "MOD",
+     "value": 0.1
+    }
+   ]
+  },
+  {
+   "id": "M3",
+   "branch": "Модели и алгоритмы",
+   "level": "II",
+   "name": "Модели рассуждения и планирования",
+   "cost": 45,
+   "prereqs": [
+    "M1"
+   ],
+   "essence": "Многошаговое решение задач, планирование и проверка промежуточных результатов.",
+   "effectText": "Методы построения моделей +0,3; прирост Познания +0,08/год",
+   "effects": [
+    {
+     "target": "res:methods",
+     "kind": "PZ",
+     "value": 0.3
+    },
+    {
+     "target": "sph:cognition",
+     "kind": "PP",
+     "value": 0.08
+    }
+   ]
+  },
+  {
+   "id": "M4",
+   "branch": "Модели и алгоритмы",
+   "level": "III",
+   "name": "Адаптивные модели непрерывного обучения",
+   "cost": 65,
+   "prereqs": [
+    "M2",
+    "M3"
+   ],
+   "essence": "Модели, способные обновляться при изменении среды и данных.",
+   "effectText": "Модельные ресурсы +0,4; их прирост +0,08/год; прирост Управления +0,05/год",
+   "effects": [
+    {
+     "target": "res:model_res",
+     "kind": "PZ",
+     "value": 0.4
+    },
+    {
+     "target": "res:model_res",
+     "kind": "PP",
+     "value": 0.08
+    },
+    {
+     "target": "sph:management",
+     "kind": "PP",
+     "value": 0.05
+    }
+   ]
+  },
+  {
+   "id": "M5",
+   "branch": "Модели и алгоритмы",
+   "level": "IV",
+   "name": "Модели мира и причинного прогнозирования",
+   "cost": 100,
+   "prereqs": [
+    "M4"
+   ],
+   "essence": "Моделирование среды, сценариев и последствий решений.",
+   "effectText": "Познание +0,3; прирост Познания +0,10/год; атака Афины +10%",
+   "effects": [
+    {
+     "target": "sph:cognition",
+     "kind": "PZ",
+     "value": 0.3
+    },
+    {
+     "target": "sph:cognition",
+     "kind": "PP",
+     "value": 0.1
+    },
+    {
+     "target": "mod:athena_att",
+     "kind": "MOD",
+     "value": 0.1
+    }
+   ]
+  },
+  {
+   "id": "M6",
+   "branch": "Модели и алгоритмы",
+   "level": "V",
+   "name": "Самосовершенствующиеся фронтирные модели",
+   "cost": 155,
+   "prereqs": [
+    "M5"
+   ],
+   "essence": "Системы, автоматизирующие существенную часть собственного улучшения.",
+   "effectText": "Прирост Методов построения моделей +0,15/год; Модельных ресурсов +0,10/год; эффективность науки для M/A/X +15%",
+   "effects": [
+    {
+     "target": "res:methods",
+     "kind": "PP",
+     "value": 0.15
+    },
+    {
+     "target": "res:model_res",
+     "kind": "PP",
+     "value": 0.1
+    },
+    {
+     "target": "mod:science_branch_MAX",
+     "kind": "MOD",
+     "value": 0.15
+    }
+   ]
+  },
+  {
+   "id": "D1",
+   "branch": "Данные и знания",
+   "level": "I",
+   "name": "Интероперабельные пространства данных",
+   "cost": 20,
+   "prereqs": [],
+   "essence": "Стандартизованный обмен данными между организациями и системами.",
+   "effectText": "Исходные данные +0,2; Интеграционные ресурсы +0,2; их прирост +0,05/год",
+   "effects": [
+    {
+     "target": "res:data_raw",
+     "kind": "PZ",
+     "value": 0.2
+    },
+    {
+     "target": "res:integration",
+     "kind": "PZ",
+     "value": 0.2
+    },
+    {
+     "target": "res:data_raw",
+     "kind": "PP",
+     "value": 0.05
+    },
+    {
+     "target": "res:integration",
+     "kind": "PP",
+     "value": 0.05
+    }
+   ]
+  },
+  {
+   "id": "D2",
+   "branch": "Данные и знания",
+   "level": "II",
+   "name": "Промышленное производство синтетических данных",
+   "cost": 35,
+   "prereqs": [
+    "D1"
+   ],
+   "essence": "Генерация обучающих и тестовых данных при дефиците реальных наблюдений.",
+   "effectText": "Производные данные +0,3; их прирост +0,10/год",
+   "effects": [
+    {
+     "target": "res:data_derived",
+     "kind": "PZ",
+     "value": 0.3
+    },
+    {
+     "target": "res:data_derived",
+     "kind": "PP",
+     "value": 0.1
+    }
+   ]
+  },
+  {
+   "id": "D3",
+   "branch": "Данные и знания",
+   "level": "II",
+   "name": "Графы знаний и семантические модели",
+   "cost": 40,
+   "prereqs": [
+    "D1"
+   ],
+   "essence": "Машиночитаемые связи между объектами, понятиями и фактами.",
+   "effectText": "Контекстные информационные ресурсы +0,3; прирост Познания +0,05/год",
+   "effects": [
+    {
+     "target": "res:data_context",
+     "kind": "PZ",
+     "value": 0.3
+    },
+    {
+     "target": "sph:cognition",
+     "kind": "PP",
+     "value": 0.05
+    }
+   ]
+  },
+  {
+   "id": "D4",
+   "branch": "Данные и знания",
+   "level": "III",
+   "name": "Проверяемые системы поиска и извлечения знаний",
+   "cost": 60,
+   "prereqs": [
+    "D2",
+    "D3"
+   ],
+   "essence": "Доступ моделей к документированным и проверяемым источникам.",
+   "effectText": "Документационные ресурсы +0,3; Права доступа +0,2; прирост Госуправления +0,05/год",
+   "effects": [
+    {
+     "target": "res:docs",
+     "kind": "PZ",
+     "value": 0.3
+    },
+    {
+     "target": "res:access",
+     "kind": "PZ",
+     "value": 0.2
+    },
+    {
+     "target": "sph:gov",
+     "kind": "PP",
+     "value": 0.05
+    }
+   ]
+  },
+  {
+   "id": "D5",
+   "branch": "Данные и знания",
+   "level": "IV",
+   "name": "Национальная машиночитаемая инфраструктура знаний",
+   "cost": 95,
+   "prereqs": [
+    "D4"
+   ],
+   "essence": "Связанная система государственных, научных и отраслевых знаний.",
+   "effectText": "Контекстные ресурсы +0,5; их прирост +0,10/год; защита Аполлона +15%",
+   "effects": [
+    {
+     "target": "res:data_context",
+     "kind": "PZ",
+     "value": 0.5
+    },
+    {
+     "target": "res:data_context",
+     "kind": "PP",
+     "value": 0.1
+    },
+    {
+     "target": "mod:apollo_def",
+     "kind": "MOD",
+     "value": 0.15
+    }
+   ]
+  },
+  {
+   "id": "D6",
+   "branch": "Данные и знания",
+   "level": "V",
+   "name": "Автономные экосистемы данных",
+   "cost": 140,
+   "prereqs": [
+    "D5"
+   ],
+   "essence": "Автоматическое получение, очистка, разметка, проверка и обновление данных.",
+   "effectText": "Прирост Исходных данных +0,10/год; Производных +0,15/год; Ресурсов оценки +0,10/год",
+   "effects": [
+    {
+     "target": "res:data_raw",
+     "kind": "PP",
+     "value": 0.1
+    },
+    {
+     "target": "res:data_derived",
+     "kind": "PP",
+     "value": 0.15
+    },
+    {
+     "target": "res:eval",
+     "kind": "PP",
+     "value": 0.1
+    }
+   ]
+  },
+  {
+   "id": "A1",
+   "branch": "Агенты и автономные системы",
+   "level": "I",
+   "name": "ИИ-копилоты с использованием инструментов",
+   "cost": 20,
+   "prereqs": [],
+   "essence": "ИИ работает с программами, поиском и информационными системами.",
+   "effectText": "Прирост Управления +0,05/год; прирост Экономики +0,05/год",
+   "effects": [
+    {
+     "target": "sph:management",
+     "kind": "PP",
+     "value": 0.05
+    },
+    {
+     "target": "sph:economy",
+     "kind": "PP",
+     "value": 0.05
+    }
+   ]
+  },
+  {
+   "id": "A2",
+   "branch": "Агенты и автономные системы",
+   "level": "II",
+   "name": "Агенты рабочих процессов",
+   "cost": 35,
+   "prereqs": [
+    "A1"
+   ],
+   "essence": "Выполнение многошаговых процессов внутри организаций.",
+   "effectText": "Организационная архитектура внедрения +0,3; её прирост +0,08/год",
+   "effects": [
+    {
+     "target": "res:org_arch",
+     "kind": "PZ",
+     "value": 0.3
+    },
+    {
+     "target": "res:org_arch",
+     "kind": "PP",
+     "value": 0.08
+    }
+   ]
+  },
+  {
+   "id": "A3",
+   "branch": "Агенты и автономные системы",
+   "level": "III",
+   "name": "Многоагентная оркестрация",
+   "cost": 55,
+   "prereqs": [
+    "A2"
+   ],
+   "essence": "Координация множества специализированных агентов.",
+   "effectText": "Прирост Управления +0,08/год; атака Афины +10%",
+   "effects": [
+    {
+     "target": "sph:management",
+     "kind": "PP",
+     "value": 0.08
+    },
+    {
+     "target": "mod:athena_att",
+     "kind": "MOD",
+     "value": 0.1
+    }
+   ]
+  },
+  {
+   "id": "A4",
+   "branch": "Агенты и автономные системы",
+   "level": "III",
+   "name": "Автономные организационные процессы",
+   "cost": 70,
+   "prereqs": [
+    "A3"
+   ],
+   "essence": "Автоматическое ведение существенной части типовых процессов организаций.",
+   "effectText": "Организационная способность к изменению +0,4; прирост Экономики +0,08/год",
+   "effects": [
+    {
+     "target": "res:org_change",
+     "kind": "PZ",
+     "value": 0.4
+    },
+    {
+     "target": "sph:economy",
+     "kind": "PP",
+     "value": 0.08
+    }
+   ]
+  },
+  {
+   "id": "A5",
+   "branch": "Агенты и автономные системы",
+   "level": "IV",
+   "name": "Государственные ИИ-агенты",
+   "cost": 105,
+   "prereqs": [
+    "A4"
+   ],
+   "essence": "Агентные системы в масштабах государственного управления.",
+   "effectText": "Прирост Госуправления +0,12/год; Управления +0,08/год; улучшение отношений +10%",
+   "effects": [
+    {
+     "target": "sph:gov",
+     "kind": "PP",
+     "value": 0.12
+    },
+    {
+     "target": "sph:management",
+     "kind": "PP",
+     "value": 0.08
+    },
+    {
+     "target": "mod:relations_improve",
+     "kind": "MOD",
+     "value": 0.1
+    }
+   ]
+  },
+  {
+   "id": "A6",
+   "branch": "Агенты и автономные системы",
+   "level": "V",
+   "name": "Стратегические автономные агентные системы",
+   "cost": 155,
+   "prereqs": [
+    "A5"
+   ],
+   "essence": "Агентные контуры, самостоятельно планирующие длинные цепочки действий.",
+   "effectText": "Управление +0,4; атака Афины +15%; атака Аполлона +15%",
+   "effects": [
+    {
+     "target": "sph:management",
+     "kind": "PZ",
+     "value": 0.4
+    },
+    {
+     "target": "mod:athena_att",
+     "kind": "MOD",
+     "value": 0.15
+    },
+    {
+     "target": "mod:apollo_att",
+     "kind": "MOD",
+     "value": 0.15
+    }
+   ]
+  },
+  {
+   "id": "R1",
+   "branch": "Физический ИИ и робототехника",
+   "level": "I",
+   "name": "Машинное зрение и интеллектуальное управление",
+   "cost": 20,
+   "prereqs": [],
+   "essence": "Распознавание физической среды и управление оборудованием.",
+   "effectText": "Оцифрованность деятельности +0,2; прирост Производства +0,05/год",
+   "effects": [
+    {
+     "target": "res:digitized",
+     "kind": "PZ",
+     "value": 0.2
+    },
+    {
+     "target": "sph:production",
+     "kind": "PP",
+     "value": 0.05
+    }
+   ]
+  },
+  {
+   "id": "R2",
+   "branch": "Физический ИИ и робототехника",
+   "level": "II",
+   "name": "Интеллектуальная промышленная робототехника",
+   "cost": 40,
+   "prereqs": [
+    "R1"
+   ],
+   "essence": "Роботы, способные адаптироваться к производственным операциям.",
+   "effectText": "Производство +0,3; его прирост +0,08/год",
+   "effects": [
+    {
+     "target": "sph:production",
+     "kind": "PZ",
+     "value": 0.3
+    },
+    {
+     "target": "sph:production",
+     "kind": "PP",
+     "value": 0.08
+    }
+   ]
+  },
+  {
+   "id": "R3",
+   "branch": "Физический ИИ и робототехника",
+   "level": "II",
+   "name": "Автономная логистика",
+   "cost": 45,
+   "prereqs": [
+    "R1"
+   ],
+   "essence": "Автоматизированные транспортные, складские и распределительные системы.",
+   "effectText": "Прирост Экономики +0,08/год; защита Афины +10%",
+   "effects": [
+    {
+     "target": "sph:economy",
+     "kind": "PP",
+     "value": 0.08
+    },
+    {
+     "target": "mod:athena_def",
+     "kind": "MOD",
+     "value": 0.1
+    }
+   ]
+  },
+  {
+   "id": "R4",
+   "branch": "Физический ИИ и робототехника",
+   "level": "III",
+   "name": "Автономные мобильные системы",
+   "cost": 70,
+   "prereqs": [
+    "R2",
+    "R3"
+   ],
+   "essence": "Воздушные, наземные и морские автономные платформы.",
+   "effectText": "Прирост Войны +0,08/год; атака Ареса +15%",
+   "effects": [
+    {
+     "target": "sph:war",
+     "kind": "PP",
+     "value": 0.08
+    },
+    {
+     "target": "mod:ares_att",
+     "kind": "MOD",
+     "value": 0.15
+    }
+   ]
+  },
+  {
+   "id": "R5",
+   "branch": "Физический ИИ и робототехника",
+   "level": "IV",
+   "name": "Универсальный воплощённый ИИ",
+   "cost": 105,
+   "prereqs": [
+    "R4"
+   ],
+   "essence": "Роботизированные системы, способные осваивать новые физические задачи.",
+   "effectText": "Прирост Производства +0,12/год; Готовность работников +0,2; прирост Принятия ИИ +0,05/год",
+   "effects": [
+    {
+     "target": "sph:production",
+     "kind": "PP",
+     "value": 0.12
+    },
+    {
+     "target": "res:workforce",
+     "kind": "PZ",
+     "value": 0.2
+    },
+    {
+     "target": "sph:adoption",
+     "kind": "PP",
+     "value": 0.05
+    }
+   ]
+  },
+  {
+   "id": "R6",
+   "branch": "Физический ИИ и робототехника",
+   "level": "V",
+   "name": "Автономные производственные комплексы",
+   "cost": 150,
+   "prereqs": [
+    "R5"
+   ],
+   "essence": "Производство с минимальным постоянным человеческим оперативным управлением.",
+   "effectText": "Производство +0,5; его прирост +0,15/год; очки трансформации в ресурсы группы I эффективнее на 15%",
+   "effects": [
+    {
+     "target": "sph:production",
+     "kind": "PZ",
+     "value": 0.5
+    },
+    {
+     "target": "sph:production",
+     "kind": "PP",
+     "value": 0.15
+    },
+    {
+     "target": "mod:transform_group_I",
+     "kind": "MOD",
+     "value": 0.15
+    }
+   ]
+  },
+  {
+   "id": "S1",
+   "branch": "Надёжность, безопасность и контроль",
+   "level": "I",
+   "name": "Систематическая оценка ИИ",
+   "cost": 20,
+   "prereqs": [],
+   "essence": "Бенчмарки, тестирование и контроль деградации моделей.",
+   "effectText": "Ресурсы оценки +0,3; прирост Поствнедренческого мониторинга +0,05/год",
+   "effects": [
+    {
+     "target": "res:eval",
+     "kind": "PZ",
+     "value": 0.3
+    },
+    {
+     "target": "res:monitoring",
+     "kind": "PP",
+     "value": 0.05
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "branch": "Надёжность, безопасность и контроль",
+   "level": "II",
+   "name": "Интерпретируемый ИИ",
+   "cost": 35,
+   "prereqs": [
+    "S1"
+   ],
+   "essence": "Средства объяснения поведения и результатов модели.",
+   "effectText": "Документационные ресурсы +0,2; Социальное доверие +0,2; прирост Принятия ИИ +0,05/год",
+   "effects": [
+    {
+     "target": "res:docs",
+     "kind": "PZ",
+     "value": 0.2
+    },
+    {
+     "target": "res:trust",
+     "kind": "PZ",
+     "value": 0.2
+    },
+    {
+     "target": "sph:adoption",
+     "kind": "PP",
+     "value": 0.05
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "branch": "Надёжность, безопасность и контроль",
+   "level": "II",
+   "name": "Защищённый MLOps и инфраструктура ИИ",
+   "cost": 40,
+   "prereqs": [
+    "S1"
+   ],
+   "essence": "Контроль доступа, моделей, обновлений и цепочек поставки.",
+   "effectText": "Кибербезопасностные ресурсы +0,3; прирост Стека эксплуатации ИИ +0,05/год; защита Афины +10%",
+   "effects": [
+    {
+     "target": "res:cyber",
+     "kind": "PZ",
+     "value": 0.3
+    },
+    {
+     "target": "res:sw_ops",
+     "kind": "PP",
+     "value": 0.05
+    },
+    {
+     "target": "mod:athena_def",
+     "kind": "MOD",
+     "value": 0.1
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "branch": "Надёжность, безопасность и контроль",
+   "level": "III",
+   "name": "Автоматизированный red teaming",
+   "cost": 65,
+   "prereqs": [
+    "S2",
+    "S3"
+   ],
+   "essence": "Постоянный поиск уязвимостей и опасных режимов поведения.",
+   "effectText": "Ресурсы оценки +0,4; прирост Кибербезопасности +0,08/год; защита Аполлона +10%",
+   "effects": [
+    {
+     "target": "res:eval",
+     "kind": "PZ",
+     "value": 0.4
+    },
+    {
+     "target": "res:cyber",
+     "kind": "PP",
+     "value": 0.08
+    },
+    {
+     "target": "mod:apollo_def",
+     "kind": "MOD",
+     "value": 0.1
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "branch": "Надёжность, безопасность и контроль",
+   "level": "IV",
+   "name": "Контроль автономных агентов",
+   "cost": 100,
+   "prereqs": [
+    "S4"
+   ],
+   "essence": "Ограничения действий, права, аудит и остановка автономных систем.",
+   "effectText": "Система управления ИИ +0,4; прирост Принятия ИИ +0,08/год; защита Афины и Аполлона +10%",
+   "effects": [
+    {
+     "target": "res:ai_gov",
+     "kind": "PZ",
+     "value": 0.4
+    },
+    {
+     "target": "sph:adoption",
+     "kind": "PP",
+     "value": 0.08
+    },
+    {
+     "target": "mod:athena_def",
+     "kind": "MOD",
+     "value": 0.1
+    },
+    {
+     "target": "mod:apollo_def",
+     "kind": "MOD",
+     "value": 0.1
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "branch": "Надёжность, безопасность и контроль",
+   "level": "V",
+   "name": "Проверяемый и самоинтерпретируемый ИИ",
+   "cost": 150,
+   "prereqs": [
+    "S5"
+   ],
+   "essence": "Системы, способные обосновывать и проверять собственное выполнение требований.",
+   "effectText": "Система управления ИИ +0,5; Регуляторная среда +0,3; прирост Социального доверия +0,10/год; вся оборона +10%",
+   "effects": [
+    {
+     "target": "res:ai_gov",
+     "kind": "PZ",
+     "value": 0.5
+    },
+    {
+     "target": "res:regulatory",
+     "kind": "PZ",
+     "value": 0.3
+    },
+    {
+     "target": "res:trust",
+     "kind": "PP",
+     "value": 0.1
+    },
+    {
+     "target": "mod:all_def",
+     "kind": "MOD",
+     "value": 0.1
+    }
+   ]
+  },
+  {
+   "id": "X1",
+   "branch": "Межветвевые",
+   "level": "IV",
+   "name": "Автономное научное исследование",
+   "cost": 100,
+   "prereqs": [
+    "M4",
+    "D4",
+    "A3"
+   ],
+   "essence": "ИИ формулирует гипотезы, планирует исследования, анализирует результаты и предлагает новые эксперименты.",
+   "effectText": "Прирост Познания +0,10/год; эффективность вложенных очков науки +15%",
+   "effects": [
+    {
+     "target": "sph:cognition",
+     "kind": "PP",
+     "value": 0.1
+    },
+    {
+     "target": "mod:science_all",
+     "kind": "MOD",
+     "value": 0.15
+    }
+   ]
+  },
+  {
+   "id": "X2",
+   "branch": "Межветвевые",
+   "level": "IV",
+   "name": "Национальная ИИ-платформа",
+   "cost": 110,
+   "prereqs": [
+    "C4",
+    "D4",
+    "S3"
+   ],
+   "essence": "Унифицированная инфраструктура вычислений, данных, моделей и развёртывания.",
+   "effectText": "Прирост Принятия ИИ +0,10/год; Госуправления +0,08/год; очки ИИ в сферы эффективнее на 10%",
+   "effects": [
+    {
+     "target": "sph:adoption",
+     "kind": "PP",
+     "value": 0.1
+    },
+    {
+     "target": "sph:gov",
+     "kind": "PP",
+     "value": 0.08
+    },
+    {
+     "target": "mod:ai_points_spheres",
+     "kind": "MOD",
+     "value": 0.1
+    }
+   ]
+  },
+  {
+   "id": "X3",
+   "branch": "Межветвевые",
+   "level": "V",
+   "name": "Автономный цифровой контур государства",
+   "cost": 140,
+   "prereqs": [
+    "A5",
+    "D5",
+    "S5"
+   ],
+   "essence": "Связанная система данных, агентов и государственного управления.",
+   "effectText": "Госуправление +0,5; его прирост +0,12/год; улучшение отношений +15%; защита Аполлона +10%",
+   "effects": [
+    {
+     "target": "sph:gov",
+     "kind": "PZ",
+     "value": 0.5
+    },
+    {
+     "target": "sph:gov",
+     "kind": "PP",
+     "value": 0.12
+    },
+    {
+     "target": "mod:relations_improve",
+     "kind": "MOD",
+     "value": 0.15
+    },
+    {
+     "target": "mod:apollo_def",
+     "kind": "MOD",
+     "value": 0.1
+    }
+   ]
+  },
+  {
+   "id": "X4",
+   "branch": "Межветвевые",
+   "level": "V+",
+   "name": "Самоускоряющийся контур исследований ИИ",
+   "cost": 190,
+   "prereqs": [
+    "M6",
+    "A6",
+    "S6"
+   ],
+   "essence": "ИИ автоматизирует значительную часть цикла создания следующего поколения ИИ.",
+   "effectText": "Эффективность очков науки +25%; прирост Методов моделей +0,10/год; Модельных ресурсов +0,10/год; открывает карты прорывов/рисков",
+   "effects": [
+    {
+     "target": "mod:science_all",
+     "kind": "MOD",
+     "value": 0.25
+    },
+    {
+     "target": "res:methods",
+     "kind": "PP",
+     "value": 0.1
+    },
+    {
+     "target": "res:model_res",
+     "kind": "PP",
+     "value": 0.1
+    },
+    {
+     "target": "mod:x4_double_swan",
+     "kind": "MOD",
+     "value": 1
+    }
+   ]
+  }
+ ],
+ "blackSwans": [
+  {
+   "id": 1,
+   "type": "global",
+   "sign": "+",
+   "title": "Фундаментальный прорыв в материаловедении",
+   "text": "Все играющие страны: Химические и технологические материалы: ПЗ +0,20; Полупроводниковое производство: ПП +0,03.",
+   "effects": [
+    {
+     "target": "res:chem",
+     "kind": "PZ",
+     "value": 0.2
+    },
+    {
+     "target": "res:semis",
+     "kind": "PP",
+     "value": 0.03
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "type": "global",
+   "sign": "+",
+   "title": "Резкое глобальное удешевление вычислений",
+   "text": "Все играющие страны: Вычислительные компоненты: ПЗ +0,20; ЦОД: ПП +0,03; Модельные ресурсы: ПП +0,02.",
+   "effects": [
+    {
+     "target": "res:compute",
+     "kind": "PZ",
+     "value": 0.2
+    },
+    {
+     "target": "res:dc",
+     "kind": "PP",
+     "value": 0.03
+    },
+    {
+     "target": "res:model_res",
+     "kind": "PP",
+     "value": 0.02
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "type": "global",
+   "sign": "+",
+   "title": "Мировой скачок производительности",
+   "text": "Все играющие страны: всем 8 сферам внедрения ИИ ВЗ +0,15; Финансовые ресурсы: ВЗ +0,25.",
+   "effects": [
+    {
+     "target": "all_spheres",
+     "kind": "VZ",
+     "value": 0.15
+    },
+    {
+     "target": "res:finance",
+     "kind": "VZ",
+     "value": 0.25
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "type": "global",
+   "sign": "-",
+   "title": "Сверхмощная солнечная буря",
+   "text": "Все играющие страны: Сетевые ресурсы: ВЗ −0,50; ЦОД: ВЗ −0,40; эффективность защиты Афины −15% на 1 ход.",
+   "effects": [
+    {
+     "target": "res:network",
+     "kind": "VZ",
+     "value": -0.5
+    },
+    {
+     "target": "res:dc",
+     "kind": "VZ",
+     "value": -0.4
+    },
+    {
+     "target": "mod:athena_def",
+     "kind": "MOD",
+     "value": -0.15,
+     "ttl": 1
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "type": "global",
+   "sign": "-",
+   "title": "Новая глобальная пандемия",
+   "text": "Все играющие страны: Человеческий ресурс: ВЗ −0,30; Производство: ВЗ −0,40; Экономика: ВЗ −0,40; Государственное управление: ВЗ −0,15.",
+   "effects": [
+    {
+     "target": "res:human",
+     "kind": "VZ",
+     "value": -0.3
+    },
+    {
+     "target": "sph:production",
+     "kind": "VZ",
+     "value": -0.4
+    },
+    {
+     "target": "sph:economy",
+     "kind": "VZ",
+     "value": -0.4
+    },
+    {
+     "target": "sph:gov",
+     "kind": "VZ",
+     "value": -0.15
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "type": "global",
+   "sign": "-",
+   "title": "Сверхизвержение и глобальный климатический шок",
+   "text": "Все играющие страны: всем 8 сферам ВЗ −0,20; Энергетические ресурсы: ВЗ −0,40; Вода: ВЗ −0,30.",
+   "effects": [
+    {
+     "target": "all_spheres",
+     "kind": "VZ",
+     "value": -0.2
+    },
+    {
+     "target": "res:energy",
+     "kind": "VZ",
+     "value": -0.4
+    },
+    {
+     "target": "res:water",
+     "kind": "VZ",
+     "value": -0.3
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "type": "national",
+   "sign": "+",
+   "title": "Открыто гигантское месторождение критических минералов",
+   "text": "Минерально-сырьевые ресурсы: ПЗ +0,60; ПП +0,04.",
+   "effects": [
+    {
+     "target": "res:minerals",
+     "kind": "PZ",
+     "value": 0.6
+    },
+    {
+     "target": "res:minerals",
+     "kind": "PP",
+     "value": 0.04
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "type": "national",
+   "sign": "+",
+   "title": "Открыто крупное новое энергетическое месторождение",
+   "text": "Энергетические ресурсы: ПЗ +0,50; ПП +0,04.",
+   "effects": [
+    {
+     "target": "res:energy",
+     "kind": "PZ",
+     "value": 0.5
+    },
+    {
+     "target": "res:energy",
+     "kind": "PP",
+     "value": 0.04
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "type": "national",
+   "sign": "+",
+   "title": "Обнаружен огромный подземный резерв пресной воды",
+   "text": "Вода: ПЗ +0,50; Производство: ПП +0,02.",
+   "effects": [
+    {
+     "target": "res:water",
+     "kind": "PZ",
+     "value": 0.5
+    },
+    {
+     "target": "sph:production",
+     "kind": "PP",
+     "value": 0.02
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "type": "national",
+   "sign": "+",
+   "title": "Обнаружена исключительно выгодная природная площадка для ЦОД",
+   "text": "Пространственные ресурсы: ПЗ +0,30; ЦОД: ПП +0,05.",
+   "effects": [
+    {
+     "target": "res:space",
+     "kind": "PZ",
+     "value": 0.3
+    },
+    {
+     "target": "res:dc",
+     "kind": "PP",
+     "value": 0.05
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "type": "national",
+   "sign": "+",
+   "title": "Случайно открыт новый промышленный материал",
+   "text": "Химические и технологические материалы: ПЗ +0,40; Полупроводники: ПП +0,04.",
+   "effects": [
+    {
+     "target": "res:chem",
+     "kind": "PZ",
+     "value": 0.4
+    },
+    {
+     "target": "res:semis",
+     "kind": "PP",
+     "value": 0.04
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "type": "national",
+   "sign": "+",
+   "title": "Серендепный прорыв в архитектуре вычислителей",
+   "text": "Вычислительные компоненты: ПЗ +0,35; их прирост: ПП +0,05.",
+   "effects": [
+    {
+     "target": "res:compute",
+     "kind": "PZ",
+     "value": 0.35
+    },
+    {
+     "target": "res:compute",
+     "kind": "PP",
+     "value": 0.05
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "type": "national",
+   "sign": "+",
+   "title": "Неожиданное фундаментальное математическое открытие",
+   "text": "Математико-алгоритмические ресурсы: ПЗ +0,40; Методы построения моделей: ПП +0,05.",
+   "effects": [
+    {
+     "target": "res:math",
+     "kind": "PZ",
+     "value": 0.4
+    },
+    {
+     "target": "res:methods",
+     "kind": "PP",
+     "value": 0.05
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "type": "national",
+   "sign": "+",
+   "title": "Случайно найден новый эффективный способ генерации данных",
+   "text": "Производные данные: ПЗ +0,40; их прирост: ПП +0,05.",
+   "effects": [
+    {
+     "target": "res:data_derived",
+     "kind": "PZ",
+     "value": 0.4
+    },
+    {
+     "target": "res:data_derived",
+     "kind": "PP",
+     "value": 0.05
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "type": "national",
+   "sign": "+",
+   "title": "Обнаружен уникальный массив ранее недоступных данных",
+   "text": "Исходные данные: ПЗ +0,50; Контекстные ресурсы: ПЗ +0,25.",
+   "effects": [
+    {
+     "target": "res:data_raw",
+     "kind": "PZ",
+     "value": 0.5
+    },
+    {
+     "target": "res:data_context",
+     "kind": "PZ",
+     "value": 0.25
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "type": "national",
+   "sign": "+",
+   "title": "Неожиданная массовая квалифицированная миграция извне",
+   "text": "Человеческий ресурс: ВЗ +0,60; его прирост: ПП +0,04.",
+   "effects": [
+    {
+     "target": "res:human",
+     "kind": "VZ",
+     "value": 0.6
+    },
+    {
+     "target": "res:human",
+     "kind": "PP",
+     "value": 0.04
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "type": "national",
+   "sign": "+",
+   "title": "Внешний глобальный инвестиционный бум случайно концентрируется в стране",
+   "text": "Финансовые ресурсы: ВЗ +0,60; Поставщики и рынок услуг: ВП +0,08.",
+   "effects": [
+    {
+     "target": "res:finance",
+     "kind": "VZ",
+     "value": 0.6
+    },
+    {
+     "target": "res:providers",
+     "kind": "VP",
+     "value": 0.08
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "type": "national",
+   "sign": "+",
+   "title": "Рекордно благоприятный природно-экономический год",
+   "text": "Производство: ВЗ +0,50; Экономика: ВЗ +0,40.",
+   "effects": [
+    {
+     "target": "sph:production",
+     "kind": "VZ",
+     "value": 0.5
+    },
+    {
+     "target": "sph:economy",
+     "kind": "VZ",
+     "value": 0.4
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "type": "national",
+   "sign": "+",
+   "title": "Природное изменение открывает новый крупный транспортный маршрут",
+   "text": "Конкурентная и торговая среда: ПЗ +0,30; Сетевые ресурсы: ПП +0,03.",
+   "effects": [
+    {
+     "target": "res:trade_env",
+     "kind": "PZ",
+     "value": 0.3
+    },
+    {
+     "target": "res:network",
+     "kind": "PP",
+     "value": 0.03
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "type": "national",
+   "sign": "+",
+   "title": "Неожиданная мировая культурная волна в пользу страны",
+   "text": "Эффективность Аполлона +20% на 1 ход; Принятие ИИ: ВЗ +0,25.",
+   "effects": [
+    {
+     "target": "mod:apollo_att",
+     "kind": "MOD",
+     "value": 0.2,
+     "ttl": 1
+    },
+    {
+     "target": "mod:apollo_def",
+     "kind": "MOD",
+     "value": 0.2,
+     "ttl": 1
+    },
+    {
+     "target": "sph:adoption",
+     "kind": "VZ",
+     "value": 0.25
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "type": "national",
+   "sign": "+",
+   "title": "Редкий научный прорыв национальной исследовательской группы",
+   "text": "Познание: ПЗ +0,30; его прирост: ПП +0,04.",
+   "effects": [
+    {
+     "target": "sph:cognition",
+     "kind": "PZ",
+     "value": 0.3
+    },
+    {
+     "target": "sph:cognition",
+     "kind": "PP",
+     "value": 0.04
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "type": "national",
+   "sign": "+",
+   "title": "Непредвиденный технологический spillover из другой отрасли",
+   "text": "Интеграционные ресурсы: ПЗ +0,35; Оцифрованность: ПП +0,04.",
+   "effects": [
+    {
+     "target": "res:integration",
+     "kind": "PZ",
+     "value": 0.35
+    },
+    {
+     "target": "res:digitized",
+     "kind": "PP",
+     "value": 0.04
+    }
+   ]
+  },
+  {
+   "id": 23,
+   "type": "national",
+   "sign": "+",
+   "title": "Случайный прорыв в робототехнике независимой команды",
+   "text": "Производство: ПЗ +0,30; Производство: ПП +0,05.",
+   "effects": [
+    {
+     "target": "sph:production",
+     "kind": "PZ",
+     "value": 0.3
+    },
+    {
+     "target": "sph:production",
+     "kind": "PP",
+     "value": 0.05
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "type": "national",
+   "sign": "+",
+   "title": "Спонтанная волна общественного технологического оптимизма",
+   "text": "Социальное доверие: ВЗ +0,60; Принятие ИИ: ВЗ +0,50; его прирост: ВП +0,05.",
+   "effects": [
+    {
+     "target": "res:trust",
+     "kind": "VZ",
+     "value": 0.6
+    },
+    {
+     "target": "sph:adoption",
+     "kind": "VZ",
+     "value": 0.5
+    },
+    {
+     "target": "sph:adoption",
+     "kind": "VP",
+     "value": 0.05
+    }
+   ]
+  },
+  {
+   "id": 25,
+   "type": "national",
+   "sign": "-",
+   "title": "Катастрофическое землетрясение",
+   "text": "Производство: ВЗ −0,70; ЦОД: ВЗ −0,50; Сетевые ресурсы: ВЗ −0,30.",
+   "effects": [
+    {
+     "target": "sph:production",
+     "kind": "VZ",
+     "value": -0.7
+    },
+    {
+     "target": "res:dc",
+     "kind": "VZ",
+     "value": -0.5
+    },
+    {
+     "target": "res:network",
+     "kind": "VZ",
+     "value": -0.3
+    }
+   ]
+  },
+  {
+   "id": 26,
+   "type": "national",
+   "sign": "-",
+   "title": "Катастрофическое наводнение",
+   "text": "Производство: ВЗ −0,60; ЦОД: ВЗ −0,35; Экономика: ВЗ −0,30.",
+   "effects": [
+    {
+     "target": "sph:production",
+     "kind": "VZ",
+     "value": -0.6
+    },
+    {
+     "target": "res:dc",
+     "kind": "VZ",
+     "value": -0.35
+    },
+    {
+     "target": "sph:economy",
+     "kind": "VZ",
+     "value": -0.3
+    }
+   ]
+  },
+  {
+   "id": 27,
+   "type": "national",
+   "sign": "-",
+   "title": "Экстремальная многолетняя засуха",
+   "text": "Вода: ВЗ −0,70; Энергетика: ВЗ −0,35; Производство: ВЗ −0,35.",
+   "effects": [
+    {
+     "target": "res:water",
+     "kind": "VZ",
+     "value": -0.7
+    },
+    {
+     "target": "res:energy",
+     "kind": "VZ",
+     "value": -0.35
+    },
+    {
+     "target": "sph:production",
+     "kind": "VZ",
+     "value": -0.35
+    }
+   ]
+  },
+  {
+   "id": 28,
+   "type": "national",
+   "sign": "-",
+   "title": "Масштабные лесные и природные пожары",
+   "text": "Пространственные ресурсы: ВЗ −0,40; Производство: ВЗ −0,40; Экономика: ВЗ −0,25.",
+   "effects": [
+    {
+     "target": "res:space",
+     "kind": "VZ",
+     "value": -0.4
+    },
+    {
+     "target": "sph:production",
+     "kind": "VZ",
+     "value": -0.4
+    },
+    {
+     "target": "sph:economy",
+     "kind": "VZ",
+     "value": -0.25
+    }
+   ]
+  },
+  {
+   "id": 29,
+   "type": "national",
+   "sign": "-",
+   "title": "Аномальная волна жары",
+   "text": "Энергетика: ВЗ −0,50; ЦОД: ВЗ −0,45; Экономика: ВЗ −0,20.",
+   "effects": [
+    {
+     "target": "res:energy",
+     "kind": "VZ",
+     "value": -0.5
+    },
+    {
+     "target": "res:dc",
+     "kind": "VZ",
+     "value": -0.45
+    },
+    {
+     "target": "sph:economy",
+     "kind": "VZ",
+     "value": -0.2
+    }
+   ]
+  },
+  {
+   "id": 30,
+   "type": "national",
+   "sign": "-",
+   "title": "Экстремальная холодовая аномалия",
+   "text": "Энергетика: ВЗ −0,50; Сетевые ресурсы: ВЗ −0,25; Экономика: ВЗ −0,25.",
+   "effects": [
+    {
+     "target": "res:energy",
+     "kind": "VZ",
+     "value": -0.5
+    },
+    {
+     "target": "res:network",
+     "kind": "VZ",
+     "value": -0.25
+    },
+    {
+     "target": "sph:economy",
+     "kind": "VZ",
+     "value": -0.25
+    }
+   ]
+  },
+  {
+   "id": 31,
+   "type": "national",
+   "sign": "-",
+   "title": "Локальная эпидемия нового патогена",
+   "text": "Человеческий ресурс: ВЗ −0,50; Производство: ВЗ −0,30; Экономика: ВЗ −0,40.",
+   "effects": [
+    {
+     "target": "res:human",
+     "kind": "VZ",
+     "value": -0.5
+    },
+    {
+     "target": "sph:production",
+     "kind": "VZ",
+     "value": -0.3
+    },
+    {
+     "target": "sph:economy",
+     "kind": "VZ",
+     "value": -0.4
+    }
+   ]
+  },
+  {
+   "id": 32,
+   "type": "national",
+   "sign": "-",
+   "title": "Массовая эпизоотия / биологическое поражение продовольственной системы",
+   "text": "Экономика: ВЗ −0,50; Производство: ВЗ −0,30; Социальное доверие: ВЗ −0,20.",
+   "effects": [
+    {
+     "target": "sph:economy",
+     "kind": "VZ",
+     "value": -0.5
+    },
+    {
+     "target": "sph:production",
+     "kind": "VZ",
+     "value": -0.3
+    },
+    {
+     "target": "res:trust",
+     "kind": "VZ",
+     "value": -0.2
+    }
+   ]
+  },
+  {
+   "id": 33,
+   "type": "national",
+   "sign": "-",
+   "title": "Редкий системный дефект энергетической инфраструктуры",
+   "text": "Энергетические ресурсы: ВЗ −0,60; ЦОД: ВЗ −0,35.",
+   "effects": [
+    {
+     "target": "res:energy",
+     "kind": "VZ",
+     "value": -0.6
+    },
+    {
+     "target": "res:dc",
+     "kind": "VZ",
+     "value": -0.35
+    }
+   ]
+  },
+  {
+   "id": 34,
+   "type": "national",
+   "sign": "-",
+   "title": "Катастрофическое загрязнение производства микроэлектроники",
+   "text": "Полупроводниковое производство: ВЗ −0,70; Вычислительные компоненты: ВЗ −0,30.",
+   "effects": [
+    {
+     "target": "res:semis",
+     "kind": "VZ",
+     "value": -0.7
+    },
+    {
+     "target": "res:compute",
+     "kind": "VZ",
+     "value": -0.3
+    }
+   ]
+  },
+  {
+   "id": 35,
+   "type": "national",
+   "sign": "-",
+   "title": "Подводное землетрясение повреждает магистральные кабели",
+   "text": "Сетевые ресурсы: ВЗ −0,70; эффективность Афины −15% на 1 ход.",
+   "effects": [
+    {
+     "target": "res:network",
+     "kind": "VZ",
+     "value": -0.7
+    },
+    {
+     "target": "mod:athena_att",
+     "kind": "MOD",
+     "value": -0.15,
+     "ttl": 1
+    },
+    {
+     "target": "mod:athena_def",
+     "kind": "MOD",
+     "value": -0.15,
+     "ttl": 1
+    }
+   ]
+  },
+  {
+   "id": 36,
+   "type": "national",
+   "sign": "-",
+   "title": "Неожиданный обвал мировой цены на основной экспорт страны",
+   "text": "Финансовые ресурсы: ВЗ −0,60; Экономика: ВЗ −0,50.",
+   "effects": [
+    {
+     "target": "res:finance",
+     "kind": "VZ",
+     "value": -0.6
+    },
+    {
+     "target": "sph:economy",
+     "kind": "VZ",
+     "value": -0.5
+    }
+   ]
+  },
+  {
+   "id": 37,
+   "type": "national",
+   "sign": "-",
+   "title": "Неожиданный мировой скачок цен на критический импорт страны",
+   "text": "Химические материалы: ВЗ −0,40; Финансовые ресурсы: ВЗ −0,45; Вычислительные компоненты: ВЗ −0,25.",
+   "effects": [
+    {
+     "target": "res:chem",
+     "kind": "VZ",
+     "value": -0.4
+    },
+    {
+     "target": "res:finance",
+     "kind": "VZ",
+     "value": -0.45
+    },
+    {
+     "target": "res:compute",
+     "kind": "VZ",
+     "value": -0.25
+    }
+   ]
+  },
+  {
+   "id": 38,
+   "type": "national",
+   "sign": "-",
+   "title": "Резкий демографический провал",
+   "text": "Человеческий ресурс: ПП −0,05; Предметная экспертиза: ВП −0,05.",
+   "effects": [
+    {
+     "target": "res:human",
+     "kind": "PP",
+     "value": -0.05
+    },
+    {
+     "target": "res:expertise",
+     "kind": "VP",
+     "value": -0.05
+    }
+   ]
+  },
+  {
+   "id": 39,
+   "type": "national",
+   "sign": "-",
+   "title": "Редкий сбой спутниковой инфраструктуры из-за космического события",
+   "text": "Сетевые ресурсы: ВЗ −0,50; Контекстные данные: ВЗ −0,30; Управление: ВЗ −0,20.",
+   "effects": [
+    {
+     "target": "res:network",
+     "kind": "VZ",
+     "value": -0.5
+    },
+    {
+     "target": "res:data_context",
+     "kind": "VZ",
+     "value": -0.3
+    },
+    {
+     "target": "sph:management",
+     "kind": "VZ",
+     "value": -0.2
+    }
+   ]
+  },
+  {
+   "id": 40,
+   "type": "national",
+   "sign": "-",
+   "title": "Экстремальная гидрологическая аномалия",
+   "text": "Вода: ВЗ −0,50; Энергетика: ВЗ −0,40; Производство: ВЗ −0,20.",
+   "effects": [
+    {
+     "target": "res:water",
+     "kind": "VZ",
+     "value": -0.5
+    },
+    {
+     "target": "res:energy",
+     "kind": "VZ",
+     "value": -0.4
+    },
+    {
+     "target": "sph:production",
+     "kind": "VZ",
+     "value": -0.2
+    }
+   ]
+  },
+  {
+   "id": 41,
+   "type": "national",
+   "sign": "-",
+   "title": "Резонансная смертельная авария автономной системы",
+   "text": "Социальное доверие: ВЗ −0,60; Принятие ИИ: ВЗ −0,60; его прирост: ВП −0,05.",
+   "effects": [
+    {
+     "target": "res:trust",
+     "kind": "VZ",
+     "value": -0.6
+    },
+    {
+     "target": "sph:adoption",
+     "kind": "VZ",
+     "value": -0.6
+    },
+    {
+     "target": "sph:adoption",
+     "kind": "VP",
+     "value": -0.05
+    }
+   ]
+  },
+  {
+   "id": 42,
+   "type": "national",
+   "sign": "-",
+   "title": "Внезапно обнаружена фундаментальная уязвимость класса используемых моделей",
+   "text": "Модельные ресурсы: ВЗ −0,50; Стек эксплуатации ИИ: ВЗ −0,40; эффективность очков ИИ −15% на 1 ход.",
+   "effects": [
+    {
+     "target": "res:model_res",
+     "kind": "VZ",
+     "value": -0.5
+    },
+    {
+     "target": "res:sw_ops",
+     "kind": "VZ",
+     "value": -0.4
+    },
+    {
+     "target": "mod:ai_points_total",
+     "kind": "MOD",
+     "value": -0.15,
+     "ttl": 1
+    }
+   ]
+  },
+  {
+   "id": 43,
+   "type": "bloc",
+   "sign": "+",
+   "title": "Открыто трансграничное месторождение энергоресурсов",
+   "text": "Каждой затронутой стране: Энергетика: ПЗ +0,35; ПП +0,03.",
+   "effects": [
+    {
+     "target": "res:energy",
+     "kind": "PZ",
+     "value": 0.35
+    },
+    {
+     "target": "res:energy",
+     "kind": "PP",
+     "value": 0.03
+    }
+   ]
+  },
+  {
+   "id": 44,
+   "type": "bloc",
+   "sign": "+",
+   "title": "Природные изменения открывают новый межрегиональный торговый маршрут",
+   "text": "Каждой затронутой стране: Сетевые ресурсы: ПЗ +0,25; Торговая среда: ПЗ +0,30.",
+   "effects": [
+    {
+     "target": "res:network",
+     "kind": "PZ",
+     "value": 0.25
+    },
+    {
+     "target": "res:trade_env",
+     "kind": "PZ",
+     "value": 0.3
+    }
+   ]
+  },
+  {
+   "id": 45,
+   "type": "bloc",
+   "sign": "+",
+   "title": "Исключительно благоприятный гидрологический цикл региона",
+   "text": "Каждой затронутой стране: Вода: ВЗ +0,50; Энергетика: ВЗ +0,30; Производство: ВЗ +0,20.",
+   "effects": [
+    {
+     "target": "res:water",
+     "kind": "VZ",
+     "value": 0.5
+    },
+    {
+     "target": "res:energy",
+     "kind": "VZ",
+     "value": 0.3
+    },
+    {
+     "target": "sph:production",
+     "kind": "VZ",
+     "value": 0.2
+    }
+   ]
+  },
+  {
+   "id": 46,
+   "type": "bloc",
+   "sign": "+",
+   "title": "Случайный фундаментальный научный прорыв внутри блока",
+   "text": "Каждой затронутой стране: Методы построения моделей: ПЗ +0,20; ПП +0,03.",
+   "effects": [
+    {
+     "target": "res:methods",
+     "kind": "PZ",
+     "value": 0.2
+    },
+    {
+     "target": "res:methods",
+     "kind": "PP",
+     "value": 0.03
+    }
+   ]
+  },
+  {
+   "id": 47,
+   "type": "bloc",
+   "sign": "+",
+   "title": "Мировой ценовой бум на экспортную корзину блока",
+   "text": "Каждой затронутой стране: Финансовые ресурсы: ВЗ +0,45; Экономика: ВЗ +0,35.",
+   "effects": [
+    {
+     "target": "res:finance",
+     "kind": "VZ",
+     "value": 0.45
+    },
+    {
+     "target": "sph:economy",
+     "kind": "VZ",
+     "value": 0.35
+    }
+   ]
+  },
+  {
+   "id": 48,
+   "type": "bloc",
+   "sign": "+",
+   "title": "Неожиданная миграционная волна квалифицированных специалистов в регион",
+   "text": "Каждой затронутой стране: Человеческий ресурс: ВЗ +0,40; его прирост: ПП +0,03.",
+   "effects": [
+    {
+     "target": "res:human",
+     "kind": "VZ",
+     "value": 0.4
+    },
+    {
+     "target": "res:human",
+     "kind": "PP",
+     "value": 0.03
+    }
+   ]
+  },
+  {
+   "id": 49,
+   "type": "bloc",
+   "sign": "+",
+   "title": "Глобальная культурная мода неожиданно смещается в пользу блока",
+   "text": "Каждой затронутой стране: эффективность Аполлона +15% на 1 ход; Социальное доверие: ВЗ +0,20.",
+   "effects": [
+    {
+     "target": "mod:apollo_att",
+     "kind": "MOD",
+     "value": 0.15,
+     "ttl": 1
+    },
+    {
+     "target": "mod:apollo_def",
+     "kind": "MOD",
+     "value": 0.15,
+     "ttl": 1
+    },
+    {
+     "target": "res:trust",
+     "kind": "VZ",
+     "value": 0.2
+    }
+   ]
+  },
+  {
+   "id": 50,
+   "type": "bloc",
+   "sign": "+",
+   "title": "Независимое открытие нового метода киберзащиты внутри блока",
+   "text": "Каждой затронутой стране: Кибербезопасность: ПЗ +0,25; защита Афины +10% на 1 ход.",
+   "effects": [
+    {
+     "target": "res:cyber",
+     "kind": "PZ",
+     "value": 0.25
+    },
+    {
+     "target": "mod:athena_def",
+     "kind": "MOD",
+     "value": 0.1,
+     "ttl": 1
+    }
+   ]
+  },
+  {
+   "id": 51,
+   "type": "bloc",
+   "sign": "+",
+   "title": "Резкий внешний рост спроса на продукцию стран блока",
+   "text": "Каждой затронутой стране: Поставщики и рынок услуг: ВЗ +0,40; Экономика: ВЗ +0,35; Производство: ВЗ +0,20.",
+   "effects": [
+    {
+     "target": "res:providers",
+     "kind": "VZ",
+     "value": 0.4
+    },
+    {
+     "target": "sph:economy",
+     "kind": "VZ",
+     "value": 0.35
+    },
+    {
+     "target": "sph:production",
+     "kind": "VZ",
+     "value": 0.2
+    }
+   ]
+  },
+  {
+   "id": 52,
+   "type": "bloc",
+   "sign": "-",
+   "title": "Серия сильных землетрясений в регионе",
+   "text": "Каждой затронутой стране: Производство: ВЗ −0,50; Сетевые ресурсы: ВЗ −0,35; ЦОД: ВЗ −0,25.",
+   "effects": [
+    {
+     "target": "sph:production",
+     "kind": "VZ",
+     "value": -0.5
+    },
+    {
+     "target": "res:network",
+     "kind": "VZ",
+     "value": -0.35
+    },
+    {
+     "target": "res:dc",
+     "kind": "VZ",
+     "value": -0.25
+    }
+   ]
+  },
+  {
+   "id": 53,
+   "type": "bloc",
+   "sign": "-",
+   "title": "Региональная мегазасуха",
+   "text": "Каждой затронутой стране: Вода: ВЗ −0,55; Энергетика: ВЗ −0,30; Производство: ВЗ −0,25.",
+   "effects": [
+    {
+     "target": "res:water",
+     "kind": "VZ",
+     "value": -0.55
+    },
+    {
+     "target": "res:energy",
+     "kind": "VZ",
+     "value": -0.3
+    },
+    {
+     "target": "sph:production",
+     "kind": "VZ",
+     "value": -0.25
+    }
+   ]
+  },
+  {
+   "id": 54,
+   "type": "bloc",
+   "sign": "-",
+   "title": "Длительный региональный тепловой купол",
+   "text": "Каждой затронутой стране: Энергетика: ВЗ −0,40; ЦОД: ВЗ −0,35; Экономика: ВЗ −0,20.",
+   "effects": [
+    {
+     "target": "res:energy",
+     "kind": "VZ",
+     "value": -0.4
+    },
+    {
+     "target": "res:dc",
+     "kind": "VZ",
+     "value": -0.35
+    },
+    {
+     "target": "sph:economy",
+     "kind": "VZ",
+     "value": -0.2
+    }
+   ]
+  },
+  {
+   "id": 55,
+   "type": "bloc",
+   "sign": "-",
+   "title": "Региональная эпидемия",
+   "text": "Каждой затронутой стране: Человеческий ресурс: ВЗ −0,40; Экономика: ВЗ −0,30; Производство: ВЗ −0,20.",
+   "effects": [
+    {
+     "target": "res:human",
+     "kind": "VZ",
+     "value": -0.4
+    },
+    {
+     "target": "sph:economy",
+     "kind": "VZ",
+     "value": -0.3
+    },
+    {
+     "target": "sph:production",
+     "kind": "VZ",
+     "value": -0.2
+    }
+   ]
+  },
+  {
+   "id": 56,
+   "type": "bloc",
+   "sign": "-",
+   "title": "Природная катастрофа перекрывает главный транспортный коридор региона",
+   "text": "Каждой затронутой стране: Торговая среда: ВЗ −0,50; Сети: ВЗ −0,35; эффективность Афины −10% на 1 ход.",
+   "effects": [
+    {
+     "target": "res:trade_env",
+     "kind": "VZ",
+     "value": -0.5
+    },
+    {
+     "target": "res:network",
+     "kind": "VZ",
+     "value": -0.35
+    },
+    {
+     "target": "mod:athena_att",
+     "kind": "MOD",
+     "value": -0.1,
+     "ttl": 1
+    },
+    {
+     "target": "mod:athena_def",
+     "kind": "MOD",
+     "value": -0.1,
+     "ttl": 1
+    }
+   ]
+  },
+  {
+   "id": 57,
+   "type": "bloc",
+   "sign": "-",
+   "title": "Обвал мировых цен на экспортную корзину блока",
+   "text": "Каждой затронутой стране: Финансовые ресурсы: ВЗ −0,45; Экономика: ВЗ −0,35.",
+   "effects": [
+    {
+     "target": "res:finance",
+     "kind": "VZ",
+     "value": -0.45
+    },
+    {
+     "target": "sph:economy",
+     "kind": "VZ",
+     "value": -0.35
+    }
+   ]
+  },
+  {
+   "id": 58,
+   "type": "bloc",
+   "sign": "-",
+   "title": "Финансовая зараза от внешнего глобального кризиса",
+   "text": "Каждой затронутой стране: Финансовые ресурсы: ВЗ −0,50; Поставщики и рынок услуг: ВЗ −0,30.",
+   "effects": [
+    {
+     "target": "res:finance",
+     "kind": "VZ",
+     "value": -0.5
+    },
+    {
+     "target": "res:providers",
+     "kind": "VZ",
+     "value": -0.3
+    }
+   ]
+  },
+  {
+   "id": 59,
+   "type": "bloc",
+   "sign": "-",
+   "title": "Региональная геомагнитная аномалия",
+   "text": "Каждой затронутой стране: Сети: ВЗ −0,50; ЦОД: ВЗ −0,40; защита Афины −15% на 1 ход.",
+   "effects": [
+    {
+     "target": "res:network",
+     "kind": "VZ",
+     "value": -0.5
+    },
+    {
+     "target": "res:dc",
+     "kind": "VZ",
+     "value": -0.4
+    },
+    {
+     "target": "mod:athena_def",
+     "kind": "MOD",
+     "value": -0.15,
+     "ttl": 1
+    }
+   ]
+  },
+  {
+   "id": 60,
+   "type": "bloc",
+   "sign": "-",
+   "title": "Синхронный климатический шок нескольких стран региона",
+   "text": "Каждой затронутой стране: Производство: ВЗ −0,50; Экономика: ВЗ −0,40; Социальное доверие: ВЗ −0,20.",
+   "effects": [
+    {
+     "target": "sph:production",
+     "kind": "VZ",
+     "value": -0.5
+    },
+    {
+     "target": "sph:economy",
+     "kind": "VZ",
+     "value": -0.4
+    },
+    {
+     "target": "res:trust",
+     "kind": "VZ",
+     "value": -0.2
+    }
+   ]
+  }
+ ],
+ "ladder": [
+  {
+   "le": -4.1,
+   "label": "Война на уничтожение"
+  },
+  {
+   "le": -3.1,
+   "label": "Война"
+  },
+  {
+   "le": -2.1,
+   "label": "Вооружённый конфликт"
+  },
+  {
+   "le": -1.1,
+   "label": "Конфронтация"
+  },
+  {
+   "lt": 0,
+   "label": "Напряжённые отношения"
+  },
+  {
+   "eq": 0,
+   "label": "Нейтралитет"
+  },
+  {
+   "le": 1,
+   "label": "Сотрудничество"
+  },
+  {
+   "le": 2,
+   "label": "Партнёрство"
+  },
+  {
+   "le": 3,
+   "label": "Стратегическое партнёрство"
+  },
+  {
+   "le": 4,
+   "label": "Стратегический союз"
+  },
+  {
+   "else": true,
+   "label": "Интеграция"
+  }
+ ],
+ "formulas": {
+  "_help": "Тела JS-функций. Контекст: res{id}, sph{id} (реальные значения), rel[15 кодов], pow, ln, min, max, sign, abs, exp, ces(ids,rho) — CES-среднее ресурсов (значение/10), geo({id:вес}) — взвешенное геометрическое по ресурсам и сферам (значение/10).",
+  "ai": {
+   "x": "const g1=ces(['minerals','chem','energy','water','space','semis','compute','dc','network','devices'],-1), g2=ces(['sw_base','sw_dev','sw_ops','math','methods'],-0.5), g3=ces(['data_raw','data_derived','data_context','model_res','eval','docs','access','cyber'],-0.5), g4=ces(['human','expertise','digitized','integration','org_arch','org_change','finance','providers','econ_viab'],-0.25), g5=ces(['law','regulatory','institutions','trade_env','trust','workforce','local_fit','ai_gov'],0.25), g6=geo({monitoring:1/3,renewal:1/3,recycling:1/3});\nreturn pow(g1,0.3)*pow(g2,0.2)*pow(g3,0.2)*pow(g4,0.15)*pow(g5,0.1)*pow(g6,0.05);",
+   "n": 3,
+   "k": 0.55,
+   "normalize": true
+  },
+  "science": {
+   "x": "return pow(geo({cognition:0.45,learning:0.25,management:0.1,gov:0.1,economy:0.05,adoption:0.05}),0.8)*pow(geo({human:0.2,math:0.15,data_raw:0.1,data_context:0.1,dc:0.15,model_res:0.1,finance:0.1,access:0.1}),0.2);",
+   "n": 2,
+   "k": 0.55,
+   "normalize": true
+  },
+  "fp": "return 100*pow((rel.reduce((a,b)=>a+b,0)/rel.length+5)/10,0.3)*pow(geo({network:0.15,cyber:0.15,finance:0.2,providers:0.15,institutions:0.15,trade_env:0.2}),0.3)*pow(geo({management:0.2,war:0.2,economy:0.3,gov:0.3}),0.4);",
+  "transform": "const s=pow(geo({production:0.2,management:0.15,cognition:0.1,learning:0.1,war:0.05,economy:0.15,gov:0.15,adoption:0.1}),0.65);\nconst r=pow(geo({minerals:0.06,chem:0.1,energy:0.12,water:0.05,space:0.04,semis:0.17,compute:0.15,dc:0.15,network:0.1,devices:0.06}),0.35);\nreturn 100*ln(1+20*s*r)/ln(21);",
+  "growth": {
+   "_help": "Переход года. Переменные: B,C,L,M — базовые значения/приросты; I,S — реальные значения; b,c,h — вложенные очки; vp — ВП; dPZ,dPP — новые постоянные эффекты; kI,kAI — модификаторы.",
+   "resB": "B + (C + vp) + 0.35*ln(1+0.6*b*kI)*pow(max(0,1-I/10),0.7) + dPZ",
+   "resC": "min(1, C + 0.08*ln(1+0.5*c)*max(0,1-C) + dPP)",
+   "sphL": "L + (M + vp) + dPZ",
+   "sphM": "min(1, M + 0.1*ln(1+0.5*h*kAI)*pow(max(0,1-S/10),0.8) + dPP)"
+  }
+ },
+ "diplomacy": {
+  "_help": "Шанс NPC. Переменные: M — мой код отношений, w — эффект вложений, sg — sign(M)*(|M|/5)^1.25.",
+  "chanceImprove": "M>=5 ? 0 : min(0.75, 0.1+0.08*sg+0.5*w*((5-M)/10))",
+  "chanceWorsen": "M<=-5 ? 0 : max(0, (0.1-0.08*sg)*(1-0.85*w))",
+  "wDenominator": 40,
+  "improveCost": 5,
+  "allianceMin": 1,
+  "npcAllianceOn": 3,
+  "npcAllianceOff": 2,
+  "npcExchange": {
+   "rate": 2,
+   "minRelation": 0,
+   "maxReceivePerNpcPerTurn": 1
+  },
+  "minCode": -5,
+  "maxCode": 5
+ },
+ "war": {
+  "power": {
+   "ares": 1,
+   "athena": 0.5,
+   "apollo": 0.25
+  },
+  "drawFactor": 0.8,
+  "dieSize": 60,
+  "totalLevels": {
+   "resource": [
+    [
+     0.2,
+     0.01
+    ],
+    [
+     0.3,
+     0.02
+    ],
+    [
+     0.4,
+     0.03
+    ]
+   ],
+   "sphere": [
+    0.02,
+    0.03,
+    0.05
+   ],
+   "relation": [
+    0.2,
+    0.3,
+    0.5
+   ]
+  },
+  "local": {
+   "minDiff": 5,
+   "ratios": [
+    2,
+    3,
+    5
+   ],
+   "ares": {
+    "value": [
+     0.15,
+     0.2,
+     0.3
+    ],
+    "growth": [
+     0.01,
+     0.02,
+     0.03
+    ],
+    "group": "I"
+   },
+   "athena": [
+    0.02,
+    0.03,
+    0.05
+   ],
+   "apollo": [
+    0.2,
+    0.3,
+    0.5
+   ]
+  },
+  "npcDefense": {
+   "ares": 8,
+   "athena": 8,
+   "apollo": 8
+  },
+  "relationDropOnAttack": 1,
+  "allowNpcTargets": false
+ },
+ "timers": {
+  "turnSeconds": 600,
+  "draftSeconds": 120,
+  "startYear": 2026,
+  "endYear": 2040,
+  "offlineEndSeconds": 30
+ },
+ "victory": {
+  "scales": {
+   "enabled": true,
+   "min": 100
+  },
+  "tech": {
+   "enabled": true
+  },
+  "diplomacy": {
+   "enabled": true
+  },
+  "tieBreak": "lowerStartSum"
+ },
+ "limits": {
+  "resMin": 1,
+  "resMax": 10,
+  "growthMax": 1,
+  "maxPlayers": 16,
+  "diffusion": {
+   "perCountry": 0.1,
+   "minFactor": 0.5
+  },
+  "tradeMaxAmount": 5,
+  "tradeMaxYears": 5,
+  "draftMode": "random"
+ },
+ "selfcheck": {
+  "usa2026": {
+   "ai": 79.12458603330526,
+   "science": 70.2797436802765,
+   "fp": 77.72748945067511,
+   "transform": 93.07742728939158
+  },
+  "usa2027": {
+   "res": {
+    "minerals": {
+     "B": 7.6,
+     "C": 0.1
+    },
+    "chem": {
+     "B": 8.7,
+     "C": 0.2
+    },
+    "energy": {
+     "B": 9.15,
+     "C": 0.15
+    },
+    "water": {
+     "B": 7.6,
+     "C": 0.1
+    },
+    "space": {
+     "B": 9.05,
+     "C": 0.05
+    },
+    "semis": {
+     "B": 7.45,
+     "C": 0.45
+    },
+    "compute": {
+     "B": 9.7,
+     "C": 0.2
+    },
+    "dc": {
+     "B": 9.8,
+     "C": 0.3
+    },
+    "network": {
+     "B": 9.15,
+     "C": 0.15
+    },
+    "devices": {
+     "B": 9.1,
+     "C": 0.1
+    },
+    "sw_base": {
+     "B": 9.1,
+     "C": 0.1
+    },
+    "sw_dev": {
+     "B": 9.1,
+     "C": 0.1
+    },
+    "sw_ops": {
+     "B": 8.15,
+     "C": 0.15
+    },
+    "math": {
+     "B": 9.1,
+     "C": 0.1
+    },
+    "methods": {
+     "B": 9.1,
+     "C": 0.1
+    },
+    "data_raw": {
+     "B": 9.65,
+     "C": 0.15
+    },
+    "data_derived": {
+     "B": 9.2,
+     "C": 0.2
+    },
+    "data_context": {
+     "B": 9.65,
+     "C": 0.15
+    },
+    "model_res": {
+     "B": 9.15,
+     "C": 0.15
+    },
+    "eval": {
+     "B": 9.25,
+     "C": 0.25
+    },
+    "docs": {
+     "B": 9.15,
+     "C": 0.15
+    },
+    "access": {
+     "B": 8.1,
+     "C": 0.1
+    },
+    "cyber": {
+     "B": 8.6,
+     "C": 0.1
+    },
+    "human": {
+     "B": 8.1,
+     "C": 0.1
+    },
+    "expertise": {
+     "B": 9.55,
+     "C": 0.05
+    },
+    "digitized": {
+     "B": 9.15,
+     "C": 0.15
+    },
+    "integration": {
+     "B": 9.2,
+     "C": 0.2
+    },
+    "org_arch": {
+     "B": 8.7,
+     "C": 0.2
+    },
+    "org_change": {
+     "B": 8.65,
+     "C": 0.15
+    },
+    "finance": {
+     "B": 9.05,
+     "C": 0.05
+    },
+    "providers": {
+     "B": 10,
+     "C": 0.05
+    },
+    "econ_viab": {
+     "B": 9.6,
+     "C": 0.1
+    },
+    "law": {
+     "B": 8.1,
+     "C": 0.1
+    },
+    "regulatory": {
+     "B": 7.7,
+     "C": 0.2
+    },
+    "institutions": {
+     "B": 8.6,
+     "C": 0.1
+    },
+    "trade_env": {
+     "B": 6.9,
+     "C": -0.1
+    },
+    "trust": {
+     "B": 5.55,
+     "C": 0.05
+    },
+    "workforce": {
+     "B": 8.25,
+     "C": 0.25
+    },
+    "local_fit": {
+     "B": 9.55,
+     "C": 0.05
+    },
+    "ai_gov": {
+     "B": 7.7,
+     "C": 0.2
+    },
+    "monitoring": {
+     "B": 8.2,
+     "C": 0.2
+    },
+    "renewal": {
+     "B": 9.1,
+     "C": 0.1
+    },
+    "recycling": {
+     "B": 7.15,
+     "C": 0.15
+    }
+   },
+   "sph": {
+    "production": {
+     "L": 7.4,
+     "M": 0.4
+    },
+    "management": {
+     "L": 8.35,
+     "M": 0.35
+    },
+    "cognition": {
+     "L": 9.65,
+     "M": 0.15
+    },
+    "learning": {
+     "L": 7.8,
+     "M": 0.3
+    },
+    "war": {
+     "L": 9.2,
+     "M": 0.2
+    },
+    "economy": {
+     "L": 8.85,
+     "M": 0.35
+    },
+    "gov": {
+     "L": 7.3,
+     "M": 0.3
+    },
+    "adoption": {
+     "L": 7.3,
+     "M": 0.3
+    }
+   }
+  }
+ }
+}

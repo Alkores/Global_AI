@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Админка — Глобальный ИИ</title>
+<link rel="stylesheet" href="style.css">
+<style>
+  body { padding: 14px; }
+  .wrap { max-width: 1100px; margin: 0 auto; }
+  .tabs { display: flex; flex-wrap: wrap; gap: 6px; margin: 12px 0; }
+  .tabs button.act { background: #1f6feb; border-color: #388bfd; }
+  textarea { width: 100%; background: #0b0f15; color: var(--text); border: 1px solid var(--line); border-radius: 6px; padding: 8px; font: 13px/1.4 Consolas, monospace; }
+  textarea.big { min-height: 62vh; }
+  textarea.bad { border-color: var(--bad); }
+  fieldset { border: 1px solid var(--line); border-radius: 8px; margin: 8px 0; padding: 8px 12px; }
+  legend { color: var(--gold); padding: 0 6px; }
+  .fld { margin: 8px 0; } .fld label { display: block; color: var(--muted); font-size: 12px; margin-bottom: 2px; }
+  pre.rep { background: #0b0f15; border: 1px solid var(--line); border-radius: 6px; padding: 8px; max-height: 40vh; overflow: auto; white-space: pre-wrap; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Админка: конфигурация игры</h1>
+  <div class="row">
+    <input id="tok" type="password" placeholder="ADMIN_TOKEN" style="width:260px">
+    <button class="primary" id="load">Загрузить config.json</button>
+    <span class="muted">Изменения применяются только к НОВЫМ комнатам.</span>
+  </div>
+  <div id="roomsBox" class="hidden">
+    <h2 style="margin-top:14px">Комнаты</h2>
+    <div class="row"><button id="roomsLoad">Обновить список</button><span class="muted">Партия также завершается сама, если все игроки офлайн дольше timers.offlineEndSeconds (30 с).</span></div>
+    <div id="rooms"></div>
+  </div>
+  <div id="main" class="hidden">
+    <h2 style="margin-top:14px">Конфигурация</h2>
+    <div class="tabs" id="tabs"></div>
+    <div id="editor"></div>
+    <div class="row" style="margin-top:12px">
+      <button id="check">Проверить</button><button class="primary" id="save">Сохранить</button><button class="danger" id="reset">Сбросить к умолчанию</button>
+    </div>
+    <h3 style="margin-top:14px">Результат</h3>
+    <div id="errs"></div>
+    <pre class="rep" id="rep">—</pre>
+  </div>
+</div>
+<script>
+'use strict';
+const $ = (s) => document.querySelector(s);
+const esc = (s) => String(s).replace(/[&<>]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]));
+let cfg = null, tab = 'formulas', jsonBad = false;
+const FORM_TABS = { formulas: 'Формулы', victory: 'Победа', timers: 'Таймеры', diplomacy: 'Дипломатия', war: 'Войны', limits: 'Лимиты' };
+const JSON_TABS = { countries: 'Страны (старт)', techs: 'Технологии', blackSwans: 'Чёрные лебеди D60', ladder: 'Статусы отношений', resources: 'Ресурсы', spheres: 'Сферы', selfcheck: 'Эталон Excel' };
+
+async function call(name, body) {
+  const r = await fetch('/api/admin/' + name, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ token: $('#tok').value, ...body }) });
+  const d = await r.json(); if (!r.ok) throw new Error(d.error || 'Ошибка'); return d;
+}
+function tabs() {
+  $('#tabs').innerHTML = [...Object.entries(FORM_TABS), ...Object.entries(JSON_TABS)].map(([k, n]) => `<button data-tab="${k}" class="${k === tab ? 'act' : ''}">${n}</button>`).join('')
+    + `<button data-tab="__all" class="${tab === '__all' ? 'act' : ''}">Весь JSON</button>`;
+}
+function field(obj, key, path) {
+  const v = obj[key], p = path ? path + '.' + key : key;
+  if (typeof v === 'string') return `<div class="fld"><label>${esc(p)}</label><textarea data-s="${p}" rows="${Math.min(14, v.split('\n').length + 1)}">${esc(v)}</textarea></div>`;
+  if (typeof v === 'number') return `<div class="fld"><label>${esc(p)}</label><input type="number" step="any" data-n="${p}" value="${v}"></div>`;
+  if (typeof v === 'boolean') return `<div class="fld"><label><input type="checkbox" data-b="${p}" ${v ? 'checked' : ''}> ${esc(p)}</label></div>`;
+  if (Array.isArray(v) || v === null) return `<div class="fld"><label>${esc(p)} (JSON)</label><textarea data-j="${p}" rows="3">${esc(JSON.stringify(v))}</textarea></div>`;
+  return `<fieldset><legend>${esc(key)}</legend>${Object.keys(v).map((k) => field(v, k, p)).join('')}</fieldset>`;
+}
+const get = (p) => p.split('.').reduce((o, k) => o[k], cfg);
+function set(p, val) { const ks = p.split('.'); const last = ks.pop(); ks.reduce((o, k) => o[k], cfg)[last] = val; }
+function editor() {
+  tabs(); jsonBad = false;
+  const e = $('#editor');
+  if (tab in FORM_TABS) {
+    e.innerHTML = `<p class="muted">${tab === 'formulas' ? 'Формулы — тела JS-функций; контекст описан в formulas._help. Нормировка ИИ/науки: normalize, n, k.' : ''}</p>` + Object.keys(cfg[tab]).map((k) => field(cfg[tab], k, tab)).join('');
+  } else {
+    const data = tab === '__all' ? cfg : cfg[tab];
+    e.innerHTML = `<textarea class="big" data-whole="1" spellcheck="false">${esc(JSON.stringify(data, null, 1))}</textarea>`;
+  }
+}
+document.addEventListener('change', (ev) => {
+  const t = ev.target;
+  try {
+    if (t.dataset.s) set(t.dataset.s, t.value);
+    else if (t.dataset.n) set(t.dataset.n, Number(t.value));
+    else if (t.dataset.b) set(t.dataset.b, t.checked);
+    else if (t.dataset.j) set(t.dataset.j, JSON.parse(t.value));
+    else if (t.dataset.whole) { const v = JSON.parse(t.value); if (tab === '__all') cfg = v; else cfg[tab] = v; }
+    t.classList.remove('bad');
+  } catch (e) { t.classList.add('bad'); $('#errs').innerHTML = `<div class="err">JSON: ${esc(e.message)}</div>`; }
+});
+$('#tabs').addEventListener('click', (ev) => { const b = ev.target.closest('[data-tab]'); if (b) { tab = b.dataset.tab; editor(); } });
+$('#load').onclick = async () => {
+  try { const d = await call('get', {}); cfg = d.config; $('#main').classList.remove('hidden'); $('#roomsBox').classList.remove('hidden'); editor(); loadRooms(); sessionStorage.adm = $('#tok').value; }
+  catch (e) { alert(e.message); }
+};
+async function send(kind) {
+  try {
+    const d = await call(kind, { config: cfg });
+    $('#errs').innerHTML = d.errors.length ? `<div class="err">${d.errors.map(esc).join('<br>')}</div>` : `<div class="ok">${d.saved ? 'Сохранено в data/config.json. ' : ''}Ошибок нет.</div>`;
+    $('#rep').textContent = (d.report || []).join('\n') || '—';
+  } catch (e) { $('#errs').innerHTML = `<div class="err">${esc(e.message)}</div>`; }
+}
+const PHASES = { lobby: 'лобби', draft: 'драфт', game: 'игра', finished: 'завершена' };
+async function loadRooms() {
+  try {
+    const d = await call('rooms', {});
+    $('#rooms').innerHTML = d.rooms.length ? `<table><thead><tr><th>Код</th><th>Фаза</th><th>Год</th><th>Игроки</th><th></th></tr></thead><tbody>${d.rooms.map((r) => `<tr>
+      <td><b>${esc(r.code)}</b></td><td>${PHASES[r.phase] || esc(r.phase)}</td><td>${r.year || '—'}</td>
+      <td>${r.players.map((q) => `<span class="dot ${q.online ? 'on' : ''}"></span>${esc(q.nick)}${q.country ? ' · ' + esc(q.country) : ''}`).join('<br>')}</td>
+      <td>${r.phase === 'finished' ? '' : `<button class="danger small" data-end="${esc(r.code)}">Завершить досрочно</button>`}</td></tr>`).join('')}</tbody></table>` : '<p class="muted">Комнат нет.</p>';
+  } catch (e) { $('#rooms').innerHTML = `<div class="err">${esc(e.message)}</div>`; }
+}
+$('#roomsLoad').onclick = loadRooms;
+$('#rooms').addEventListener('click', async (ev) => {
+  const b = ev.target.closest('[data-end]'); if (!b) return;
+  if (!confirm(`Завершить партию в комнате ${b.dataset.end}? Идущая игра получит итоги по текущим очкам, лобби/драфт будут удалены.`)) return;
+  try { const d = await call('endRoom', { code: b.dataset.end }); if (!d.ok) alert(d.errors.join('; ')); } catch (e) { alert(e.message); }
+  loadRooms();
+});
+$('#check').onclick = () => send('validate');
+$('#save').onclick = () => send('save');
+$('#reset').onclick = async () => { if (!confirm('Сбросить конфиг к значениям по умолчанию?')) return; try { const d = await call('reset', {}); cfg = d.config; editor(); $('#errs').innerHTML = '<div class="ok">Сброшено.</div>'; } catch (e) { alert(e.message); } };
+if (sessionStorage.adm) { $('#tok').value = sessionStorage.adm; $('#load').click(); }
+</script>
+</body>
+</html>

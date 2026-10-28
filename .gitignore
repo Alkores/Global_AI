@@ -1,0 +1,6 @@
+certs/
+data/rooms.json
+data/config.json
+node_modules/
+~$*
+*.tmp
